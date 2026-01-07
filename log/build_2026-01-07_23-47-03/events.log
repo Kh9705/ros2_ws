@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000587] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000659] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000691] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000706] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000718] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000730] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000740] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000751] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000761] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000770] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000781] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000791] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000804] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000815] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000825] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000834] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000845] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000855] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000864] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000881] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000892] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000903] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000914] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000923] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000935] (-) JobUnselected: {'identifier': 'my_package2'}
+[0.000945] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000957] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict({'tutorial_interfaces': '/home/khushhal/ros2_ws/install/tutorial_interfaces'})}
+[0.000976] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.010305] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.010853] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.011305] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khushhal/ros2_ws/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/home/khushhal/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'USER': 'khushhal', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/khushhal/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/khushhal', 'OLDPWD': '/home/khushhal/ros2_ws/src', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/khushhal/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3369', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/khushhal/ros2_ws/install', 'LOGNAME': 'khushhal', '_P9K_SSH_TTY': '/dev/pts/0', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'khushhal', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:@/tmp/.ICE-unix/3115,unix/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:/tmp/.ICE-unix/3115', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c68acfef_24b6_44d9_ac1b_86db3f1e2319', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.218', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/khushhal/ros2_ws/install/tutorial_interfaces:/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/khushhal/ros2_ws/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/khushhal/ros2_ws/install/tutorial_interfaces:/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.069893] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.070145] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.099810] (-) TimerEvent: {}
+[0.200086] (-) TimerEvent: {}
+[0.300371] (-) TimerEvent: {}
+[0.400666] (-) TimerEvent: {}
+[0.500983] (-) TimerEvent: {}
+[0.601348] (-) TimerEvent: {}
+[0.701630] (-) TimerEvent: {}
+[0.801891] (-) TimerEvent: {}
+[0.902149] (-) TimerEvent: {}
+[1.002401] (-) TimerEvent: {}
+[1.102666] (-) TimerEvent: {}
+[1.202935] (-) TimerEvent: {}
+[1.303213] (-) TimerEvent: {}
+[1.403487] (-) TimerEvent: {}
+[1.503844] (-) TimerEvent: {}
+[1.604116] (-) TimerEvent: {}
+[1.704390] (-) TimerEvent: {}
+[1.804679] (-) TimerEvent: {}
+[1.904968] (-) TimerEvent: {}
+[1.937665] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.937896] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[1.937983] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[1.938052] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[1.938124] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::\x1b[01;32m\x1b[Ktimer_callback\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.938208] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:42:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.938282] (cpp_pubsub) StderrLine: {'line': b'   42 |     RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Publishing: \'%d\'"\x1b[m\x1b[K, \x1b[32m\x1b[Kmessage.num\x1b[m\x1b[K);\n'}
+[1.938351] (cpp_pubsub) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.938417] (cpp_pubsub) StderrLine: {'line': b'      |                                                                 \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.938484] (cpp_pubsub) StderrLine: {'line': b'      |                                                                 \x1b[32m\x1b[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type {aka long int}\x1b[m\x1b[K\n'}
+[1.938551] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:42:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.938622] (cpp_pubsub) StderrLine: {'line': b'   42 |     RCLCPP_INFO(this->get_logger(), "Publishing: \'\x1b[01;36m\x1b[K%d\x1b[m\x1b[K\'", message.num);\n'}
+[1.938694] (cpp_pubsub) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[1.938755] (cpp_pubsub) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[1.938808] (cpp_pubsub) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[1.938862] (cpp_pubsub) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[1.968339] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.968532] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[1.968626] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[1.968704] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[1.968771] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::\x1b[01;32m\x1b[Ktopic_callback\x1b[m\x1b[K(tutorial_interfaces::msg::Num_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.968831] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:34:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.968907] (cpp_pubsub) StderrLine: {'line': b'   34 |     RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"I heard: \'%s\'"\x1b[m\x1b[K, \x1b[32m\x1b[Kmsg->num\x1b[m\x1b[K);\n'}
+[1.968967] (cpp_pubsub) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[1.969025] (cpp_pubsub) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[1.969081] (cpp_pubsub) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type {aka long int}\x1b[m\x1b[K\n'}
+[1.969140] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:34:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[1.969196] (cpp_pubsub) StderrLine: {'line': b'   34 |     RCLCPP_INFO(this->get_logger(), "I heard: \'\x1b[01;36m\x1b[K%s\x1b[m\x1b[K\'", msg->num);\n'}
+[1.969251] (cpp_pubsub) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[1.969315] (cpp_pubsub) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[1.969371] (cpp_pubsub) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[1.969426] (cpp_pubsub) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.005088] (-) TimerEvent: {}
+[2.105610] (-) TimerEvent: {}
+[2.205930] (-) TimerEvent: {}
+[2.306205] (-) TimerEvent: {}
+[2.406480] (-) TimerEvent: {}
+[2.506770] (-) TimerEvent: {}
+[2.607340] (-) TimerEvent: {}
+[2.707647] (-) TimerEvent: {}
+[2.807928] (-) TimerEvent: {}
+[2.908209] (-) TimerEvent: {}
+[3.008497] (-) TimerEvent: {}
+[3.108881] (-) TimerEvent: {}
+[3.209157] (-) TimerEvent: {}
+[3.309417] (-) TimerEvent: {}
+[3.409731] (-) TimerEvent: {}
+[3.510006] (-) TimerEvent: {}
+[3.610278] (-) TimerEvent: {}
+[3.664471] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.710380] (-) TimerEvent: {}
+[3.810660] (-) TimerEvent: {}
+[3.822841] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[3.910776] (-) TimerEvent: {}
+[4.011040] (-) TimerEvent: {}
+[4.111295] (-) TimerEvent: {}
+[4.211532] (-) TimerEvent: {}
+[4.311824] (-) TimerEvent: {}
+[4.412099] (-) TimerEvent: {}
+[4.512350] (-) TimerEvent: {}
+[4.612579] (-) TimerEvent: {}
+[4.713064] (-) TimerEvent: {}
+[4.813320] (-) TimerEvent: {}
+[4.913576] (-) TimerEvent: {}
+[5.013843] (-) TimerEvent: {}
+[5.114095] (-) TimerEvent: {}
+[5.214351] (-) TimerEvent: {}
+[5.314604] (-) TimerEvent: {}
+[5.414885] (-) TimerEvent: {}
+[5.515139] (-) TimerEvent: {}
+[5.615391] (-) TimerEvent: {}
+[5.715659] (-) TimerEvent: {}
+[5.815920] (-) TimerEvent: {}
+[5.916183] (-) TimerEvent: {}
+[6.016439] (-) TimerEvent: {}
+[6.088843] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[6.116540] (-) TimerEvent: {}
+[6.216824] (-) TimerEvent: {}
+[6.313701] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[6.316892] (-) TimerEvent: {}
+[6.324646] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.325206] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[6.333380] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/khushhal/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/khushhal/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'USER': 'khushhal', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/khushhal/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/khushhal', 'OLDPWD': '/home/khushhal/ros2_ws/src', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/khushhal/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3369', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/khushhal/ros2_ws/install', 'LOGNAME': 'khushhal', '_P9K_SSH_TTY': '/dev/pts/0', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'khushhal', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:@/tmp/.ICE-unix/3115,unix/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:/tmp/.ICE-unix/3115', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c68acfef_24b6_44d9_ac1b_86db3f1e2319', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.218', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/khushhal/ros2_ws/install/tutorial_interfaces:/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/khushhal/ros2_ws/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/khushhal/ros2_ws/install/tutorial_interfaces:/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.340814] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.341687] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[6.343592] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/khushhal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[6.344281] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[6.349895] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/khushhal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[6.350011] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[6.350340] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[6.350504] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[6.350652] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[6.350746] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[6.350844] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[6.350973] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[6.351052] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[6.351126] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[6.351207] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[6.351306] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[6.351366] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[6.351426] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[6.351486] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[6.351544] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[6.353139] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.365269] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[6.365941] (-) EventReactorShutdown: {}

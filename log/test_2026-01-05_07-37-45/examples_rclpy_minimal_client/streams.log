@@ -1,0 +1,17 @@
+[0.783s] Invoking command in '/home/khushhal/ros2_ws/src/examples/rclpy/services/minimal_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/khushhal/ros2_ws/build/examples_rclpy_minimal_client/pytest.xml --junit-prefix=examples_rclpy_minimal_client -o cache_dir=/home/khushhal/ros2_ws/build/examples_rclpy_minimal_client/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[1.965s] [1m============================= test session starts ==============================[0m
+[1.966s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[1.966s] cachedir: /home/khushhal/ros2_ws/build/examples_rclpy_minimal_client/.pytest_cache
+[1.966s] rootdir: /home/khushhal/ros2_ws/src/examples/rclpy
+[1.966s] configfile: pytest.ini
+[1.966s] plugins: ament-lint-0.17.3, ament-pep257-0.17.3, launch-testing-ros-0.26.10, launch-testing-3.4.9, ament-flake8-0.17.3, ament-xmllint-0.17.3, ament-copyright-0.17.3, typeguard-4.1.5, colcon-core-0.20.1, cov-4.1.0
+[1.967s] [1mcollecting ... [0m[1m
+[1.967s] collected 3 items                                                              [0m
+[1.967s] 
+[2.181s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[2.404s] test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+[2.437s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[2.438s] 
+[2.438s] - generated xml file: /home/khushhal/ros2_ws/build/examples_rclpy_minimal_client/pytest.xml -
+[2.438s] [32m============================== [32m[1m3 passed[0m[32m in 1.07s[0m[32m ===============================[0m
+[2.549s] Invoked command in '/home/khushhal/ros2_ws/src/examples/rclpy/services/minimal_client' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/khushhal/ros2_ws/build/examples_rclpy_minimal_client/pytest.xml --junit-prefix=examples_rclpy_minimal_client -o cache_dir=/home/khushhal/ros2_ws/build/examples_rclpy_minimal_client/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

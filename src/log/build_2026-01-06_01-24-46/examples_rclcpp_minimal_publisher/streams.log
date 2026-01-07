@@ -1,0 +1,61 @@
+[0.039s] Invoking command in '/home/khushhal/ros2_ws/src/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/src/install/examples_rclcpp_minimal_publisher
+[0.138s] -- The C compiler identification is GNU 13.3.0
+[0.228s] -- The CXX compiler identification is GNU 13.3.0
+[0.250s] -- Detecting C compiler ABI info
+[0.381s] -- Detecting C compiler ABI info - done
+[0.396s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.396s] -- Detecting C compile features
+[0.398s] -- Detecting C compile features - done
+[0.411s] -- Detecting CXX compiler ABI info
+[0.580s] -- Detecting CXX compiler ABI info - done
+[0.598s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.598s] -- Detecting CXX compile features
+[0.599s] -- Detecting CXX compile features - done
+[0.604s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.858s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.025s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.093s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.114s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.174s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.314s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.319s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.460s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.493s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.532s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.666s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.701s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.894s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.897s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.898s] -- Configured cppcheck include dirs: 
+[1.898s] -- Configured cppcheck exclude dirs and/or files: 
+[1.900s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.901s] -- Configured cpplint exclude dirs and/or files: 
+[1.902s] -- Added test 'lint_cmake' to check CMake code style
+[1.906s] -- Added test 'uncrustify' to check C / C++ code style
+[1.906s] -- Configured uncrustify additional arguments: 
+[1.906s] -- Added test 'xmllint' to check XML markup files
+[1.909s] -- Configuring done (1.9s)
+[1.959s] -- Generating done (0.0s)
+[1.976s] -- Build files have been written to: /home/khushhal/ros2_ws/src/build/examples_rclcpp_minimal_publisher
+[2.015s] Invoked command in '/home/khushhal/ros2_ws/src/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/src/install/examples_rclcpp_minimal_publisher
+[2.016s] Invoking command in '/home/khushhal/ros2_ws/src/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/src/build/examples_rclcpp_minimal_publisher -- -j12 -l12
+[2.114s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[2.131s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[2.132s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[2.151s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[2.151s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[2.157s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[19.023s] gmake[2]: *** [CMakeFiles/publisher_not_composable.dir/build.make:76: CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o] Interrupt
+[19.080s] gmake[2]: *** [CMakeFiles/publisher_lambda.dir/build.make:76: CMakeFiles/publisher_lambda.dir/lambda.cpp.o] Interrupt
+[19.080s] gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/publisher_lambda.dir/all] Interrupt
+[19.080s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/publisher_not_composable.dir/all] Interrupt
+[19.081s] gmake[2]: *** [CMakeFiles/publisher_member_function_with_type_adapter.dir/build.make:76: CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o] Interrupt
+[19.081s] gmake[2]: *** [CMakeFiles/publisher_member_function.dir/build.make:76: CMakeFiles/publisher_member_function.dir/member_function.cpp.o] Interrupt
+[19.082s] gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/publisher_member_function.dir/all] Interrupt
+[19.082s] gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/publisher_member_function_with_type_adapter.dir/all] Interrupt
+[19.083s] gmake[2]: *** [CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/build.make:76: CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o] Interrupt
+[19.083s] gmake[2]: *** [CMakeFiles/publisher_wait_for_all_acked.dir/build.make:76: CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o] Interrupt
+[19.083s] gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/publisher_wait_for_all_acked.dir/all] Interrupt
+[19.083s] gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/all] Interrupt
+[19.083s] gmake: *** [Makefile:146: all] Interrupt

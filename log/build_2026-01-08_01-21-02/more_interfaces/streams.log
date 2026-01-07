@@ -1,0 +1,35 @@
+[0.009s] Invoking command in '/home/khushhal/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/more_interfaces
+[0.064s] -- The C compiler identification is GNU 13.3.0
+[0.115s] -- The CXX compiler identification is GNU 13.3.0
+[0.132s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.218s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.218s] -- Detecting C compile features
+[0.219s] -- Detecting C compile features - done
+[0.227s] -- Detecting CXX compiler ABI info
+[0.315s] -- Detecting CXX compiler ABI info - done
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.322s] -- Detecting CXX compile features
+[0.323s] -- Detecting CXX compile features - done
+[0.327s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.449s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.563s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.571s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.680s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.685s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.771s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.774s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.856s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.875s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.896s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.971s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.971s]   rosidl_generate_interfaces() the passed file '$(msg_files)' doesn't exist
+[0.971s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.971s]   '/home/khushhal/ros2_ws/src/more_interfaces'
+[0.971s] Call Stack (most recent call first):
+[0.971s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[0.972s] 
+[0.972s] [0m
+[0.972s] -- Configuring incomplete, errors occurred!
+[0.979s] Invoked command in '/home/khushhal/ros2_ws/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/more_interfaces

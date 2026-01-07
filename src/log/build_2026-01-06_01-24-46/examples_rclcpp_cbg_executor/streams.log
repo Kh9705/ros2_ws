@@ -1,0 +1,61 @@
+[0.032s] Invoking command in '/home/khushhal/ros2_ws/src/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/executors/cbg_executor -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/src/install/examples_rclcpp_cbg_executor
+[0.106s] -- The C compiler identification is GNU 13.3.0
+[0.199s] -- The CXX compiler identification is GNU 13.3.0
+[0.225s] -- Detecting C compiler ABI info
+[0.369s] -- Detecting C compiler ABI info - done
+[0.386s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.386s] -- Detecting C compile features
+[0.386s] -- Detecting C compile features - done
+[0.399s] -- Detecting CXX compiler ABI info
+[0.557s] -- Detecting CXX compiler ABI info - done
+[0.574s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.575s] -- Detecting CXX compile features
+[0.576s] -- Detecting CXX compile features - done
+[0.580s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.812s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.010s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.099s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.123s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.155s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.326s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.333s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.475s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.509s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.546s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.678s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.709s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.905s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.909s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.909s] -- Configured cppcheck include dirs: /home/khushhal/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include
+[1.909s] -- Configured cppcheck exclude dirs and/or files: 
+[1.911s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.911s] -- Configured cpplint exclude dirs and/or files: 
+[1.912s] -- Added test 'lint_cmake' to check CMake code style
+[1.916s] -- Added test 'uncrustify' to check C / C++ code style
+[1.916s] -- Configured uncrustify additional arguments: 
+[1.916s] -- Added test 'xmllint' to check XML markup files
+[1.924s] -- Configuring done (1.9s)
+[1.974s] -- Generating done (0.0s)
+[1.981s] -- Build files have been written to: /home/khushhal/ros2_ws/src/build/examples_rclcpp_cbg_executor
+[2.024s] Invoked command in '/home/khushhal/ros2_ws/src/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/executors/cbg_executor -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/src/install/examples_rclcpp_cbg_executor
+[2.025s] Invoking command in '/home/khushhal/ros2_ws/src/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/src/build/examples_rclcpp_cbg_executor -- -j12 -l12
+[2.123s] [ 10%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[2.136s] [ 20%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[2.136s] [ 30%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[2.140s] [ 40%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o[0m
+[2.142s] [ 50%] [32mBuilding CXX object CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[2.161s] [ 60%] [32mBuilding CXX object CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[2.165s] [ 70%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[19.067s] gmake[2]: *** [CMakeFiles/ping_pong.dir/build.make:90: CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o] Interrupt
+[19.069s] gmake[2]: *** [CMakeFiles/ping_pong.dir/build.make:104: CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o] Interrupt
+[19.069s] gmake[2]: *** [CMakeFiles/ping.dir/build.make:76: CMakeFiles/ping.dir/src/ping.cpp.o] Interrupt
+[19.069s] gmake[2]: *** [CMakeFiles/ping.dir/build.make:90: CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o] Interrupt
+[19.069s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ping.dir/all] Interrupt
+[19.069s] gmake[2]: *** [CMakeFiles/ping_pong.dir/build.make:76: CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o] Interrupt
+[19.069s] gmake[2]: *** [CMakeFiles/pong.dir/build.make:76: CMakeFiles/pong.dir/src/pong.cpp.o] Interrupt
+[19.072s] gmake[2]: *** [CMakeFiles/pong.dir/build.make:90: CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o] Interrupt
+[19.072s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ping_pong.dir/all] Interrupt
+[19.086s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pong.dir/all] Interrupt
+[19.090s] gmake: *** [Makefile:146: all] Interrupt
+[19.118s] Invoked command in '/home/khushhal/ros2_ws/src/build/examples_rclcpp_cbg_executor' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/src/build/examples_rclcpp_cbg_executor -- -j12 -l12

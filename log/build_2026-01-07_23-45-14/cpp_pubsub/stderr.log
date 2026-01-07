@@ -1,0 +1,18 @@
+[01m[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:40:46:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Ktutorial_interfaces::msg[m[K’
+   40 |     auto message = tutorial_interfaces::msg::[01;31m[KString[m[K();
+      |                                              [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:17[m[K:
+[01m[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::[01;32m[Ktopic_callback[m[K(tutorial_interfaces::msg::Num_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:34:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<tutorial_interfaces::msg::Num_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+   34 |     RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg->[01;31m[Kdata[m[K.c_str());
+      |                                                           [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

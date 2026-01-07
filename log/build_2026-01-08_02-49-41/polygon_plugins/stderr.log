@@ -1,0 +1,9 @@
+[01m[K/home/khushhal/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:6:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPolygonPlugins[m[K’ does not name a type
+    6 | [01;31m[KPolygonPlugins[m[K::PolygonPlugins()
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/khushhal/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:10:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPolygonPlugins[m[K’ does not name a type
+   10 | [01;31m[KPolygonPlugins[m[K::~PolygonPlugins()
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/polygon_plugins.dir/build.make:76: CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/polygon_plugins.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

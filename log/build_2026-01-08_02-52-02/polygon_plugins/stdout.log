@@ -1,0 +1,28 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libpolygon_plugins.so[0m
+[100%] Built target polygon_plugins
+-- Install configuration: ""
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so
+-- Set non-toolchain portion of runtime path of "/home/khushhal/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so" to ""
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/include
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/include/polygon_plugins
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+-- Up-to-date: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+-- Up-to-date: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.dsv
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+-- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.xml

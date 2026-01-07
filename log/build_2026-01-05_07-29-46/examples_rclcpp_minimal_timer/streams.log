@@ -1,0 +1,32 @@
+[0.067s] Invoking command in '/home/khushhal/ros2_ws/build/examples_rclcpp_minimal_timer': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/examples_rclcpp_minimal_timer
+[1.235s] -- The C compiler identification is GNU 13.3.0
+[1.236s] -- The CXX compiler identification is GNU 13.3.0
+[1.236s] -- Detecting C compiler ABI info
+[1.236s] -- Detecting C compiler ABI info - done
+[1.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.236s] -- Detecting C compile features
+[1.236s] -- Detecting C compile features - done
+[1.236s] -- Detecting CXX compiler ABI info
+[1.237s] -- Detecting CXX compiler ABI info - done
+[1.237s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.237s] -- Detecting CXX compile features
+[1.237s] -- Detecting CXX compile features - done
+[1.254s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[1.254s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.254s]   has asked CMake to find a package configuration file provided by
+[1.255s]   "ament_cmake", but CMake did not find one.
+[1.255s] 
+[1.255s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.255s]   any of the following names:
+[1.255s] 
+[1.255s]     ament_cmakeConfig.cmake
+[1.255s]     ament_cmake-config.cmake
+[1.255s] 
+[1.255s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.255s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.256s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.256s]   has been installed.
+[1.256s] 
+[1.256s] [0m
+[1.256s] -- Configuring incomplete, errors occurred!
+[1.306s] Invoked command in '/home/khushhal/ros2_ws/build/examples_rclcpp_minimal_timer' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/examples_rclcpp_minimal_timer

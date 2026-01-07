@@ -1,0 +1,68 @@
+[0.008s] Invoking command in '/home/khushhal/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/cpp_pubsub
+[0.055s] -- The C compiler identification is GNU 13.3.0
+[0.102s] -- The CXX compiler identification is GNU 13.3.0
+[0.118s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.202s] -- Detecting C compile features
+[0.202s] -- Detecting C compile features - done
+[0.211s] -- Detecting CXX compiler ABI info
+[0.296s] -- Detecting CXX compiler ABI info - done
+[0.304s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.304s] -- Detecting CXX compile features
+[0.304s] -- Detecting CXX compile features - done
+[0.307s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.424s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.511s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.564s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.581s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.602s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.713s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.716s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.802s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.820s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.839s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.918s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.935s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.019s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.019s] -- Configured cppcheck include dirs: 
+[1.019s] -- Configured cppcheck exclude dirs and/or files: 
+[1.020s] -- Added test 'lint_cmake' to check CMake code style
+[1.021s] -- Added test 'uncrustify' to check C / C++ code style
+[1.021s] -- Configured uncrustify additional arguments: 
+[1.021s] -- Added test 'xmllint' to check XML markup files
+[1.023s] -- Configuring done (1.0s)
+[1.034s] -- Generating done (0.0s)
+[1.038s] -- Build files have been written to: /home/khushhal/ros2_ws/build/cpp_pubsub
+[1.046s] Invoked command in '/home/khushhal/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/cpp_pubsub
+[1.047s] Invoking command in '/home/khushhal/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[1.092s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.093s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.623s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[4.796s] [ 75%] Built target talker
+[7.049s] [100%] [32m[1mLinking CXX executable listener[0m
+[7.250s] [100%] Built target listener
+[7.261s] Invoked command in '/home/khushhal/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[7.270s] Invoking command in '/home/khushhal/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/khushhal/ros2_ws/build/cpp_pubsub
+[7.276s] -- Install configuration: ""
+[7.276s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[7.278s] -- Set non-toolchain portion of runtime path of "/home/khushhal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[7.278s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[7.282s] -- Set non-toolchain portion of runtime path of "/home/khushhal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[7.282s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[7.282s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[7.282s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[7.283s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[7.283s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[7.283s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[7.283s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[7.283s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[7.283s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[7.283s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[7.283s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[7.284s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[7.284s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[7.284s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[7.284s] -- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[7.286s] Invoked command in '/home/khushhal/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/khushhal/ros2_ws/build/cpp_pubsub

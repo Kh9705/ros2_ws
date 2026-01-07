@@ -1,0 +1,14 @@
+[0.007s] Invoking command in '/home/khushhal/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/khushhal/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khushhal/ros2_ws/install/polygon_base:/home/khushhal/ros2_ws/install/cpp_pubsub:/home/khushhal/ros2_ws/install/tutorial_interfaces:/home/khushhal/ros2_ws/install/more_interfaces:/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_parameters:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/polygon_plugins
+[0.019s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.189s] -- Found polygon_base: 0.0.0 (/home/khushhal/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+[0.190s] -- Found pluginlib: 5.4.3 (/opt/ros/jazzy/share/pluginlib/cmake)
+[0.205s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.206s] [31mCMake Error at /opt/ros/jazzy/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+[0.206s]   Given plugin description file
+[0.206s]   '/home/khushhal/ros2_ws/src/polygon_plugins/plugins.xml' does not exist
+[0.206s] Call Stack (most recent call first):
+[0.206s]   CMakeLists.txt:36 (pluginlib_export_plugin_description_file)
+[0.206s] 
+[0.206s] [0m
+[0.206s] -- Configuring incomplete, errors occurred!
+[0.210s] Invoked command in '/home/khushhal/ros2_ws/build/polygon_plugins' returned '1': AMENT_PREFIX_PATH=/home/khushhal/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khushhal/ros2_ws/install/polygon_base:/home/khushhal/ros2_ws/install/cpp_pubsub:/home/khushhal/ros2_ws/install/tutorial_interfaces:/home/khushhal/ros2_ws/install/more_interfaces:/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_parameters:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/polygon_plugins

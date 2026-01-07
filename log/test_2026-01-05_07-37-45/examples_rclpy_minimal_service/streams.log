@@ -1,0 +1,17 @@
+[1.540s] Invoking command in '/home/khushhal/ros2_ws/src/examples/rclpy/services/minimal_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/khushhal/ros2_ws/build/examples_rclpy_minimal_service/pytest.xml --junit-prefix=examples_rclpy_minimal_service -o cache_dir=/home/khushhal/ros2_ws/build/examples_rclpy_minimal_service/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[2.199s] [1m============================= test session starts ==============================[0m
+[2.199s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[2.205s] cachedir: /home/khushhal/ros2_ws/build/examples_rclpy_minimal_service/.pytest_cache
+[2.206s] rootdir: /home/khushhal/ros2_ws/src/examples/rclpy
+[2.206s] configfile: pytest.ini
+[2.206s] plugins: ament-lint-0.17.3, ament-pep257-0.17.3, launch-testing-ros-0.26.10, launch-testing-3.4.9, ament-flake8-0.17.3, ament-xmllint-0.17.3, ament-copyright-0.17.3, typeguard-4.1.5, colcon-core-0.20.1, cov-4.1.0
+[2.317s] [1mcollecting ... [0m[1m
+[2.317s] collected 3 items                                                              [0m
+[2.318s] 
+[2.769s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[2.967s] test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+[2.993s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[2.993s] 
+[2.993s] - generated xml file: /home/khushhal/ros2_ws/build/examples_rclpy_minimal_service/pytest.xml -
+[2.993s] [32m============================== [32m[1m3 passed[0m[32m in 0.79s[0m[32m ===============================[0m
+[3.091s] Invoked command in '/home/khushhal/ros2_ws/src/examples/rclpy/services/minimal_service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/khushhal/ros2_ws/build/examples_rclpy_minimal_service/pytest.xml --junit-prefix=examples_rclpy_minimal_service -o cache_dir=/home/khushhal/ros2_ws/build/examples_rclpy_minimal_service/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

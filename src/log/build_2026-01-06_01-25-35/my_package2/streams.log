@@ -1,0 +1,37 @@
+[0.816s] Invoking command in '/home/khushhal/ros2_ws/src/my_package2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/khushhal/ros2_ws/src/build/my_package2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khushhal/ros2_ws/src/install/my_package2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_package2 build --build-base /home/khushhal/ros2_ws/src/build/my_package2/build install --record /home/khushhal/ros2_ws/src/build/my_package2/install.log --single-version-externally-managed install_data
+[1.042s] running egg_info
+[1.042s] creating ../build/my_package2/my_package2.egg-info
+[1.058s] writing ../build/my_package2/my_package2.egg-info/PKG-INFO
+[1.059s] writing dependency_links to ../build/my_package2/my_package2.egg-info/dependency_links.txt
+[1.059s] writing entry points to ../build/my_package2/my_package2.egg-info/entry_points.txt
+[1.059s] writing requirements to ../build/my_package2/my_package2.egg-info/requires.txt
+[1.059s] writing top-level names to ../build/my_package2/my_package2.egg-info/top_level.txt
+[1.059s] writing manifest file '../build/my_package2/my_package2.egg-info/SOURCES.txt'
+[1.093s] reading manifest file '../build/my_package2/my_package2.egg-info/SOURCES.txt'
+[1.093s] writing manifest file '../build/my_package2/my_package2.egg-info/SOURCES.txt'
+[1.093s] running build
+[1.093s] running build_py
+[1.093s] creating /home/khushhal/ros2_ws/src/build/my_package2/build
+[1.093s] creating /home/khushhal/ros2_ws/src/build/my_package2/build/lib
+[1.093s] creating /home/khushhal/ros2_ws/src/build/my_package2/build/lib/my_package2
+[1.094s] copying my_package2/my_node.py -> /home/khushhal/ros2_ws/src/build/my_package2/build/lib/my_package2
+[1.094s] copying my_package2/__init__.py -> /home/khushhal/ros2_ws/src/build/my_package2/build/lib/my_package2
+[1.094s] running install
+[1.099s] running install_lib
+[1.115s] creating /home/khushhal/ros2_ws/src/install/my_package2/lib/python3.12/site-packages/my_package2
+[1.116s] copying /home/khushhal/ros2_ws/src/build/my_package2/build/lib/my_package2/my_node.py -> /home/khushhal/ros2_ws/src/install/my_package2/lib/python3.12/site-packages/my_package2
+[1.116s] copying /home/khushhal/ros2_ws/src/build/my_package2/build/lib/my_package2/__init__.py -> /home/khushhal/ros2_ws/src/install/my_package2/lib/python3.12/site-packages/my_package2
+[1.116s] byte-compiling /home/khushhal/ros2_ws/src/install/my_package2/lib/python3.12/site-packages/my_package2/my_node.py to my_node.cpython-312.pyc
+[1.116s] byte-compiling /home/khushhal/ros2_ws/src/install/my_package2/lib/python3.12/site-packages/my_package2/__init__.py to __init__.cpython-312.pyc
+[1.116s] running install_data
+[1.116s] creating /home/khushhal/ros2_ws/src/install/my_package2/share/ament_index
+[1.117s] creating /home/khushhal/ros2_ws/src/install/my_package2/share/ament_index/resource_index
+[1.117s] creating /home/khushhal/ros2_ws/src/install/my_package2/share/ament_index/resource_index/packages
+[1.117s] copying resource/my_package2 -> /home/khushhal/ros2_ws/src/install/my_package2/share/ament_index/resource_index/packages
+[1.117s] copying package.xml -> /home/khushhal/ros2_ws/src/install/my_package2/share/my_package2
+[1.117s] running install_egg_info
+[1.134s] Copying ../build/my_package2/my_package2.egg-info to /home/khushhal/ros2_ws/src/install/my_package2/lib/python3.12/site-packages/my_package2-0.0.0-py3.12.egg-info
+[1.135s] running install_scripts
+[1.248s] Installing my_node script to /home/khushhal/ros2_ws/src/install/my_package2/lib/my_package2
+[1.248s] writing list of installed files to '/home/khushhal/ros2_ws/src/build/my_package2/install.log'
+[1.272s] Invoked command in '/home/khushhal/ros2_ws/src/my_package2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/khushhal/ros2_ws/src/build/my_package2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khushhal/ros2_ws/src/install/my_package2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_package2 build --build-base /home/khushhal/ros2_ws/src/build/my_package2/build install --record /home/khushhal/ros2_ws/src/build/my_package2/install.log --single-version-externally-managed install_data

@@ -1,0 +1,52 @@
+[0.018s] Invoking command in '/home/khushhal/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/cpp_srvcli
+[0.135s] -- The C compiler identification is GNU 13.3.0
+[0.239s] -- The CXX compiler identification is GNU 13.3.0
+[0.274s] -- Detecting C compiler ABI info
+[0.459s] -- Detecting C compiler ABI info - done
+[0.475s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.476s] -- Detecting C compile features
+[0.477s] -- Detecting C compile features - done
+[0.498s] -- Detecting CXX compiler ABI info
+[0.687s] -- Detecting CXX compiler ABI info - done
+[0.704s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.704s] -- Detecting CXX compile features
+[0.705s] -- Detecting CXX compile features - done
+[0.712s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.964s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.186s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.278s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.308s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.383s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.546s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.553s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.725s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.764s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.807s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.970s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[2.096s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.288s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.288s] -- Configured cppcheck include dirs: 
+[2.288s] -- Configured cppcheck exclude dirs and/or files: 
+[2.290s] -- Added test 'lint_cmake' to check CMake code style
+[2.294s] -- Added test 'uncrustify' to check C / C++ code style
+[2.294s] -- Configured uncrustify additional arguments: 
+[2.295s] -- Added test 'xmllint' to check XML markup files
+[2.299s] -- Configuring done (2.3s)
+[2.324s] -- Generating done (0.0s)
+[2.332s] -- Build files have been written to: /home/khushhal/ros2_ws/build/cpp_srvcli
+[2.348s] Invoked command in '/home/khushhal/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/cpp_srvcli
+[2.350s] Invoking command in '/home/khushhal/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/cpp_srvcli -- -j12 -l12
+[2.439s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[2.439s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[2.477s] [ 75%] [32m[1mLinking CXX executable client[0m
+[2.666s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[2.666s] (.text+0x1b): undefined reference to `main'
+[2.670s] collect2: error: ld returned 1 exit status
+[2.674s] gmake[2]: *** [CMakeFiles/client.dir/build.make:185: client] Error 1
+[2.674s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[2.674s] gmake[1]: *** Waiting for unfinished jobs....
+[8.272s] [100%] [32m[1mLinking CXX executable server[0m
+[8.507s] [100%] Built target server
+[8.510s] gmake: *** [Makefile:146: all] Error 2
+[8.514s] Invoked command in '/home/khushhal/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/cpp_srvcli -- -j12 -l12

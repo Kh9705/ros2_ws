@@ -1,0 +1,275 @@
+[0.000000] (-) TimerEvent: {}
+[0.000288] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000321] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000345] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000365] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000556] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000575] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000588] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000600] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000612] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000624] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000645] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000658] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000683] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000698] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000839] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000853] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000863] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000872] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000881] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000895] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000905] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000917] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000926] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000935] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000946] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000955] (-) JobUnselected: {'identifier': 'my_package2'}
+[0.000965] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000989] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.001003] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.007931] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.008536] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/khushhal/ros2_ws/src/more_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/more_interfaces'], 'cwd': '/home/khushhal/ros2_ws/build/more_interfaces', 'env': OrderedDict({'USER': 'khushhal', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/khushhal', 'OLDPWD': '/home/khushhal/ros2_ws/src', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/khushhal/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3369', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/khushhal/ros2_ws/install', 'LOGNAME': 'khushhal', '_P9K_SSH_TTY': '/dev/pts/0', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'khushhal', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:@/tmp/.ICE-unix/3115,unix/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:/tmp/.ICE-unix/3115', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c68acfef_24b6_44d9_ac1b_86db3f1e2319', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.218', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/khushhal/ros2_ws/build/more_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.021581] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099563] (-) TimerEvent: {}
+[0.188873] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.199629] (-) TimerEvent: {}
+[0.211780] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.219007] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.228008] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.238625] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.288692] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.289828] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299714] (-) TimerEvent: {}
+[0.343750] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.396811] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.399801] (-) TimerEvent: {}
+[0.403280] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.499896] (-) TimerEvent: {}
+[0.600130] (-) TimerEvent: {}
+[0.700367] (-) TimerEvent: {}
+[0.800601] (-) TimerEvent: {}
+[0.863076] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[0.900701] (-) TimerEvent: {}
+[1.000933] (-) TimerEvent: {}
+[1.101163] (-) TimerEvent: {}
+[1.201394] (-) TimerEvent: {}
+[1.301613] (-) TimerEvent: {}
+[1.401847] (-) TimerEvent: {}
+[1.431941] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.501949] (-) TimerEvent: {}
+[1.602181] (-) TimerEvent: {}
+[1.655686] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.659589] (more_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.702271] (-) TimerEvent: {}
+[1.769176] (more_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[1.802364] (-) TimerEvent: {}
+[1.902617] (-) TimerEvent: {}
+[2.002853] (-) TimerEvent: {}
+[2.103092] (-) TimerEvent: {}
+[2.122983] (more_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.150133] (more_interfaces) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[2.150351] (more_interfaces) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[2.150438] (more_interfaces) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[2.150508] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.150577] (more_interfaces) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[2.150643] (more_interfaces) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[2.150711] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.150775] (more_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.150825] (more_interfaces) StderrLine: {'line': b'  CMakeLists.txt:41 (rosidl_target_interfaces)\n'}
+[2.150878] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.150931] (more_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[2.152807] (more_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.183656] (more_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.183905] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.184022] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.185066] (more_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.186463] (more_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.186577] (more_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.187329] (more_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.190288] (more_interfaces) StdoutLine: {'line': b'-- Configuring done (2.2s)\n'}
+[2.203165] (-) TimerEvent: {}
+[2.221997] (more_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.231759] (more_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/khushhal/ros2_ws/build/more_interfaces\n'}
+[2.240166] (more_interfaces) CommandEnded: {'returncode': 0}
+[2.240658] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[2.241295] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khushhal/ros2_ws/build/more_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/khushhal/ros2_ws/build/more_interfaces', 'env': OrderedDict({'USER': 'khushhal', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/khushhal', 'OLDPWD': '/home/khushhal/ros2_ws/src', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/khushhal/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3369', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/khushhal/ros2_ws/install', 'LOGNAME': 'khushhal', '_P9K_SSH_TTY': '/dev/pts/0', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'khushhal', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:@/tmp/.ICE-unix/3115,unix/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:/tmp/.ICE-unix/3115', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c68acfef_24b6_44d9_ac1b_86db3f1e2319', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.218', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/khushhal/ros2_ws/build/more_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.286749] (more_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[2.294456] (more_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_more_interfaces\n'}
+[2.303262] (-) TimerEvent: {}
+[2.403505] (-) TimerEvent: {}
+[2.441562] (more_interfaces) StdoutLine: {'line': b'[  2%] Built target more_interfaces__rosidl_generator_type_description\n'}
+[2.451431] (more_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.460869] (more_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.475521] (more_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.476373] (more_interfaces) StdoutLine: {'line': b'creating more_interfaces.egg-info\n'}
+[2.493069] (more_interfaces) StdoutLine: {'line': b'writing more_interfaces.egg-info/PKG-INFO\n'}
+[2.493268] (more_interfaces) StdoutLine: {'line': b'writing dependency_links to more_interfaces.egg-info/dependency_links.txt\n'}
+[2.493473] (more_interfaces) StdoutLine: {'line': b'writing top-level names to more_interfaces.egg-info/top_level.txt\n'}
+[2.493629] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[2.503576] (-) TimerEvent: {}
+[2.546021] (more_interfaces) StdoutLine: {'line': b"reading manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[2.546488] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[2.573399] (more_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_more_interfaces_egg\n'}
+[2.603656] (-) TimerEvent: {}
+[2.653167] (more_interfaces) StdoutLine: {'line': b'[  8%] Built target more_interfaces__cpp\n'}
+[2.671113] (more_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__description.c.o\x1b[0m\n'}
+[2.671308] (more_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__type_support.c.o\x1b[0m\n'}
+[2.671406] (more_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o\x1b[0m\n'}
+[2.703765] (-) TimerEvent: {}
+[2.711626] (more_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.744179] (more_interfaces) StdoutLine: {'line': b'[ 19%] Built target more_interfaces__rosidl_generator_c\n'}
+[2.753975] (more_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.754455] (more_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.754549] (more_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.754640] (more_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.754726] (more_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.754806] (more_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.803871] (-) TimerEvent: {}
+[2.904133] (-) TimerEvent: {}
+[2.959782] (more_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[2.965034] (more_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[2.980838] (more_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o\x1b[0m\n'}
+[2.981092] (more_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o\x1b[0m\n'}
+[2.987491] (more_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o\x1b[0m\n'}
+[2.991569] (more_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o\x1b[0m\n'}
+[3.000281] (more_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.004220] (-) TimerEvent: {}
+[3.017374] (more_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.041759] (more_interfaces) StdoutLine: {'line': b'[ 58%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[3.050684] (more_interfaces) StdoutLine: {'line': b'[ 58%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.104359] (-) TimerEvent: {}
+[3.204715] (-) TimerEvent: {}
+[3.237582] (more_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.258815] (more_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.278886] (more_interfaces) StdoutLine: {'line': b'[ 63%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[3.304809] (-) TimerEvent: {}
+[3.318320] (more_interfaces) StdoutLine: {'line': b'[ 63%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.386292] (more_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.392392] (more_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.404910] (-) TimerEvent: {}
+[3.450447] (more_interfaces) StdoutLine: {'line': b'[ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.461393] (more_interfaces) StdoutLine: {'line': b'[ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.478478] (more_interfaces) StdoutLine: {'line': b'[ 69%] Built target more_interfaces\n'}
+[3.496316] (more_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.496517] (more_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o\x1b[0m\n'}
+[3.504984] (-) TimerEvent: {}
+[3.605199] (-) TimerEvent: {}
+[3.705440] (-) TimerEvent: {}
+[3.727200] (more_interfaces) StdoutLine: {'line': b'[ 75%] Built target more_interfaces__py\n'}
+[3.747847] (more_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o\x1b[0m\n'}
+[3.805556] (-) TimerEvent: {}
+[3.848005] (more_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.886265] (more_interfaces) StdoutLine: {'line': b'[ 80%] Built target more_interfaces__rosidl_generator_py\n'}
+[3.905669] (-) TimerEvent: {}
+[3.905917] (more_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.906079] (more_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.906162] (more_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.989807] (more_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.990056] (more_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.992441] (more_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.005773] (-) TimerEvent: {}
+[4.019908] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[4.020109] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces_s__rosidl_typesupport_c\n'}
+[4.020669] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[4.105880] (-) TimerEvent: {}
+[4.206144] (-) TimerEvent: {}
+[4.306404] (-) TimerEvent: {}
+[4.406668] (-) TimerEvent: {}
+[4.506937] (-) TimerEvent: {}
+[4.607205] (-) TimerEvent: {}
+[4.707487] (-) TimerEvent: {}
+[4.807749] (-) TimerEvent: {}
+[4.908012] (-) TimerEvent: {}
+[5.008265] (-) TimerEvent: {}
+[5.108740] (-) TimerEvent: {}
+[5.209015] (-) TimerEvent: {}
+[5.247050] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:7:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kliterals\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.247243] (more_interfaces) StderrLine: {'line': b'    7 | using namespace std::chrono\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kliterals\x1b[m\x1b[K;\n'}
+[5.247325] (more_interfaces) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[5.247419] (more_interfaces) StderrLine: {'line': b'      |                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[5.248367] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:7:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kliterals\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.248497] (more_interfaces) StderrLine: {'line': b'    7 | using namespace std::chrono \x1b[01;31m\x1b[Kliterals\x1b[m\x1b[K;\n'}
+[5.248567] (more_interfaces) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.252452] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KAddresssBookPublisher::\x1b[01;32m\x1b[KAddresssBookPublisher\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.252608] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:15:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[5.252923] (more_interfaces) StderrLine: {'line': b'   15 |         address_book_publisher_= this->\x1b[01;31m\x1b[Kcreate_publisher<more_interfaces\x1b[m\x1b[K;:msg::AddressBook>("address_book",10);\n'}
+[5.253017] (more_interfaces) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.253095] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:15:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[5.253171] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K,\n'}
+[5.253238] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:2\x1b[m\x1b[K:\n'}
+[5.253305] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:418:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const std::shared_ptr<_Yp>&) \x1b[35m\x1b[K[with _Tp = rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.253425] (more_interfaces) StderrLine: {'line': b'  418 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[5.253494] (more_interfaces) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.253558] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:418:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.253609] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:15:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Yp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.253661] (more_interfaces) StderrLine: {'line': b'   15 |         address_book_publisher_= this->\x1b[01;36m\x1b[Kcreate_publisher<more_interfaces\x1b[m\x1b[K;:msg::AddressBook>("address_book",10);\n'}
+[5.253713] (more_interfaces) StderrLine: {'line': b'      |                                        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.253763] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:429:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std::auto_ptr<_Up>&&) \x1b[35m\x1b[K[with _Tp = rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.253819] (more_interfaces) StderrLine: {'line': b'  429 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[5.253870] (more_interfaces) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.253919] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:429:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.253972] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:15:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Yp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.254037] (more_interfaces) StderrLine: {'line': b'   15 |         address_book_publisher_= this->\x1b[01;36m\x1b[Kcreate_publisher<more_interfaces\x1b[m\x1b[K;:msg::AddressBook>("address_book",10);\n'}
+[5.254090] (more_interfaces) StderrLine: {'line': b'      |                                        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.254141] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:446:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std::shared_ptr<_Yp>&&) \x1b[35m\x1b[K[with _Tp = rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.254205] (more_interfaces) StderrLine: {'line': b'  446 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[5.254257] (more_interfaces) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.254308] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:446:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.254371] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:15:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Yp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.254434] (more_interfaces) StderrLine: {'line': b'   15 |         address_book_publisher_= this->\x1b[01;36m\x1b[Kcreate_publisher<more_interfaces\x1b[m\x1b[K;:msg::AddressBook>("address_book",10);\n'}
+[5.254487] (more_interfaces) StderrLine: {'line': b'      |                                        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.254539] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:454:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std::unique_ptr<_Up, _Ep>&&) \x1b[35m\x1b[K[with _Del = _Yp; _Tp = rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.254592] (more_interfaces) StderrLine: {'line': b'  454 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[5.254644] (more_interfaces) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.254695] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:454:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.254745] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:15:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Yp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.254797] (more_interfaces) StderrLine: {'line': b'   15 |         address_book_publisher_= this->\x1b[01;36m\x1b[Kcreate_publisher<more_interfaces\x1b[m\x1b[K;:msg::AddressBook>("address_book",10);\n'}
+[5.254848] (more_interfaces) StderrLine: {'line': b'      |                                        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.254905] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:414:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(const std::shared_ptr<_Tp>&) \x1b[35m\x1b[K[with _Tp = rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.254962] (more_interfaces) StderrLine: {'line': b'  414 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[5.255016] (more_interfaces) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.255067] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:414:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.255121] (more_interfaces) StderrLine: {'line': b'  414 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[5.255172] (more_interfaces) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.255222] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:438:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::\x1b[01;32m\x1b[Koperator=\x1b[m\x1b[K(std::shared_ptr<_Tp>&&) \x1b[35m\x1b[K[with _Tp = rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > >]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.255274] (more_interfaces) StderrLine: {'line': b'  438 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[5.255334] (more_interfaces) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.255394] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:438:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.255458] (more_interfaces) StderrLine: {'line': b'  438 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[5.255509] (more_interfaces) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.255560] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:15:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.255612] (more_interfaces) StderrLine: {'line': b'   15 |         address_book_publisher_= this->create_publisher<more_interfaces;\x1b[01;31m\x1b[K:\x1b[m\x1b[Kmsg::AddressBook>("address_book",10);\n'}
+[5.255670] (more_interfaces) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.255723] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[5.255775] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:21:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kpphone_number\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kphone_number\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.255827] (more_interfaces) StderrLine: {'line': b'   21 |             message.\x1b[01;31m\x1b[Kpphone_number\x1b[m\x1b[K="1234567899";\n'}
+[5.255878] (more_interfaces) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.255930] (more_interfaces) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kphone_number\x1b[m\x1b[K\n'}
+[5.261480] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.261612] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:39:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAddressBookPublisher\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KAddresssBookPublisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.261697] (more_interfaces) StderrLine: {'line': b'   39 |   rclcpp::spin(std::make_shared<\x1b[01;31m\x1b[KAddressBookPublisher\x1b[m\x1b[K>());\n'}
+[5.261768] (more_interfaces) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.261840] (more_interfaces) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[KAddresssBookPublisher\x1b[m\x1b[K\n'}
+[5.262400] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:39:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.262572] (more_interfaces) StderrLine: {'line': b'   39 |   rclcpp::spin(\x1b[01;31m\x1b[Kstd::make_shared<AddressBookPublisher>()\x1b[m\x1b[K);\n'}
+[5.262648] (more_interfaces) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[5.262715] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::\x1b[01;32m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.262778] (more_interfaces) StderrLine: {'line': b' 1005 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[5.262838] (more_interfaces) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.262894] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.262951] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:39:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.263004] (more_interfaces) StderrLine: {'line': b'   39 |   rclcpp::spin(\x1b[01;31m\x1b[Kstd::make_shared<AddressBookPublisher>()\x1b[m\x1b[K);\n'}
+[5.263059] (more_interfaces) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[5.309118] (-) TimerEvent: {}
+[5.409381] (-) TimerEvent: {}
+[5.509645] (-) TimerEvent: {}
+[5.609910] (-) TimerEvent: {}
+[5.710176] (-) TimerEvent: {}
+[5.810443] (-) TimerEvent: {}
+[5.818281] (more_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1\n'}
+[5.818539] (more_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:626: CMakeFiles/publish_address_book.dir/all] Error 2\n'}
+[5.818869] (more_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.821487] (more_interfaces) CommandEnded: {'returncode': 2}
+[5.827471] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 2}
+[5.837937] (-) EventReactorShutdown: {}

@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000614] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000652] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000671] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000700] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000873] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000891] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000904] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000916] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000928] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000940] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000955] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000967] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000991] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001004] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001017] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001029] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001039] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001048] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001057] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001072] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001083] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001092] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001103] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001112] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001121] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001131] (-) JobUnselected: {'identifier': 'my_package2'}
+[0.001141] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001153] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.001168] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.007600] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.008164] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/khushhal/ros2_ws/src/more_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/more_interfaces'], 'cwd': '/home/khushhal/ros2_ws/build/more_interfaces', 'env': OrderedDict({'USER': 'khushhal', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/khushhal', 'OLDPWD': '/home/khushhal/ros2_ws/src', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/khushhal/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3369', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/khushhal/ros2_ws/install', 'LOGNAME': 'khushhal', '_P9K_SSH_TTY': '/dev/pts/0', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'khushhal', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:@/tmp/.ICE-unix/3115,unix/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:/tmp/.ICE-unix/3115', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c68acfef_24b6_44d9_ac1b_86db3f1e2319', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.218', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/khushhal/ros2_ws/build/more_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.064975] (more_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099816] (-) TimerEvent: {}
+[0.116350] (more_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.132596] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199910] (-) TimerEvent: {}
+[0.211829] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.219036] (more_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.219585] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.220017] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.228499] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300021] (-) TimerEvent: {}
+[0.315570] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.323013] (more_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.323261] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.323705] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.328457] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.400106] (-) TimerEvent: {}
+[0.450286] (more_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.500193] (-) TimerEvent: {}
+[0.564293] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.571702] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600275] (-) TimerEvent: {}
+[0.635961] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.681440] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.686198] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.700360] (-) TimerEvent: {}
+[0.771597] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.775112] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800464] (-) TimerEvent: {}
+[0.856881] (more_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.876234] (more_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.896727] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.900525] (-) TimerEvent: {}
+[0.971952] (more_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):\n'}
+[0.972182] (more_interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file '$(msg_files)' doesn't exist\n"}
+[0.972329] (more_interfaces) StderrLine: {'line': b'  relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[0.972408] (more_interfaces) StderrLine: {'line': b"  '/home/khushhal/ros2_ws/src/more_interfaces'\n"}
+[0.972491] (more_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.972561] (more_interfaces) StderrLine: {'line': b'  CMakeLists.txt:27 (rosidl_generate_interfaces)\n'}
+[0.972629] (more_interfaces) StderrLine: {'line': b'\n'}
+[0.972696] (more_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.972759] (more_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.979999] (more_interfaces) CommandEnded: {'returncode': 1}
+[0.997460] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 1}
+[1.000600] (-) TimerEvent: {}
+[1.008000] (-) EventReactorShutdown: {}

@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000195] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000406] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000432] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000447] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000462] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000475] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000503] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000517] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000532] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000545] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000692] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000707] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000718] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000729] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000739] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000749] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000758] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000770] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000779] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000795] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000807] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000817] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000826] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000837] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000847] (-) JobUnselected: {'identifier': 'my_package2'}
+[0.000857] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000870] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict({'tutorial_interfaces': '/home/khushhal/ros2_ws/install/tutorial_interfaces'})}
+[0.000893] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.010311] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.010784] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.011329] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khushhal/ros2_ws/build/cpp_pubsub', '--', '-j12', '-l12'], 'cwd': '/home/khushhal/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'USER': 'khushhal', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/khushhal/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/khushhal', 'OLDPWD': '/home/khushhal/ros2_ws/src', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/khushhal/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3369', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/khushhal/ros2_ws/install', 'LOGNAME': 'khushhal', '_P9K_SSH_TTY': '/dev/pts/0', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'khushhal', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:@/tmp/.ICE-unix/3115,unix/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:/tmp/.ICE-unix/3115', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c68acfef_24b6_44d9_ac1b_86db3f1e2319', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.218', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/khushhal/ros2_ws/install/tutorial_interfaces:/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/khushhal/ros2_ws/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/khushhal/ros2_ws/install/tutorial_interfaces:/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.069209] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.069444] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.099330] (-) TimerEvent: {}
+[0.199613] (-) TimerEvent: {}
+[0.299895] (-) TimerEvent: {}
+[0.400168] (-) TimerEvent: {}
+[0.500432] (-) TimerEvent: {}
+[0.600701] (-) TimerEvent: {}
+[0.700975] (-) TimerEvent: {}
+[0.801254] (-) TimerEvent: {}
+[0.901537] (-) TimerEvent: {}
+[1.001797] (-) TimerEvent: {}
+[1.102072] (-) TimerEvent: {}
+[1.202357] (-) TimerEvent: {}
+[1.302631] (-) TimerEvent: {}
+[1.402969] (-) TimerEvent: {}
+[1.503232] (-) TimerEvent: {}
+[1.603523] (-) TimerEvent: {}
+[1.703775] (-) TimerEvent: {}
+[1.804055] (-) TimerEvent: {}
+[1.904335] (-) TimerEvent: {}
+[1.961567] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::\x1b[01;32m\x1b[Ktimer_callback\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.961803] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:40:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.961907] (cpp_pubsub) StderrLine: {'line': b'   40 |     auto message = tutorial_interfaces::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K();\n'}
+[1.961983] (cpp_pubsub) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.986791] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.986988] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[1.987075] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[1.987147] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[1.987218] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::\x1b[01;32m\x1b[Ktopic_callback\x1b[m\x1b[K(tutorial_interfaces::msg::Num_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.987290] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:34:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing std::__shared_ptr_access<tutorial_interfaces::msg::Num_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct tutorial_interfaces::msg::Num_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.987362] (cpp_pubsub) StderrLine: {'line': b'   34 |     RCLCPP_INFO(this->get_logger(), "I heard: \'%s\'", msg->\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K.c_str());\n'}
+[1.987418] (cpp_pubsub) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.004440] (-) TimerEvent: {}
+[2.104701] (-) TimerEvent: {}
+[2.204977] (-) TimerEvent: {}
+[2.305246] (-) TimerEvent: {}
+[2.405524] (-) TimerEvent: {}
+[2.505796] (-) TimerEvent: {}
+[2.606067] (-) TimerEvent: {}
+[2.706353] (-) TimerEvent: {}
+[2.777111] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[2.777369] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[2.777462] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.806427] (-) TimerEvent: {}
+[2.906661] (-) TimerEvent: {}
+[3.007023] (-) TimerEvent: {}
+[3.107289] (-) TimerEvent: {}
+[3.207552] (-) TimerEvent: {}
+[3.307806] (-) TimerEvent: {}
+[3.408084] (-) TimerEvent: {}
+[3.508346] (-) TimerEvent: {}
+[3.608607] (-) TimerEvent: {}
+[3.708896] (-) TimerEvent: {}
+[3.717374] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[3.717652] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[3.717862] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.720300] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[3.728631] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[3.739264] (-) EventReactorShutdown: {}

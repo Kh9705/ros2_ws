@@ -1,0 +1,79 @@
+[0.053s] Invoking command in '/home/khushhal/ros2_ws/src/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/src/install/examples_rclcpp_wait_set
+[1.987s] -- The C compiler identification is GNU 13.3.0
+[1.988s] -- The CXX compiler identification is GNU 13.3.0
+[1.988s] -- Detecting C compiler ABI info
+[1.988s] -- Detecting C compiler ABI info - done
+[1.988s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.989s] -- Detecting C compile features
+[1.989s] -- Detecting C compile features - done
+[1.989s] -- Detecting CXX compiler ABI info
+[1.989s] -- Detecting CXX compiler ABI info - done
+[1.994s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.994s] -- Detecting CXX compile features
+[1.994s] -- Detecting CXX compile features - done
+[1.994s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.994s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.995s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.995s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.995s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.995s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.996s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.996s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.996s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.996s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.996s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.996s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.996s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.997s] -- Found rclcpp_components: 28.1.13 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.997s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.997s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.000s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.004s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.005s] -- Configured cppcheck include dirs: /home/khushhal/ros2_ws/src/examples/rclcpp/wait_set/include
+[2.006s] -- Configured cppcheck exclude dirs and/or files: 
+[2.008s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.009s] -- Configured cpplint exclude dirs and/or files: 
+[2.017s] -- Added test 'lint_cmake' to check CMake code style
+[2.018s] -- Added test 'uncrustify' to check C / C++ code style
+[2.018s] -- Configured uncrustify additional arguments: 
+[2.019s] -- Added test 'xmllint' to check XML markup files
+[2.022s] -- Configuring done (2.0s)
+[2.124s] -- Generating done (0.1s)
+[2.158s] -- Build files have been written to: /home/khushhal/ros2_ws/src/build/examples_rclcpp_wait_set
+[2.202s] Invoked command in '/home/khushhal/ros2_ws/src/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/src/install/examples_rclcpp_wait_set
+[2.202s] Invoking command in '/home/khushhal/ros2_ws/src/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/src/build/examples_rclcpp_wait_set -- -j12 -l12
+[19.086s] [  4%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[19.086s] [  8%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[19.086s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[19.086s] [ 16%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[19.086s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[19.086s] [ 25%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[19.086s] [ 29%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[19.086s] [ 33%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[19.086s] [ 37%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[19.086s] [ 41%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[19.086s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[19.088s] gmake[2]: *** [CMakeFiles/wait_set.dir/build.make:76: CMakeFiles/wait_set.dir/src/wait_set.cpp.o] Interrupt
+[19.088s] gmake[2]: *** [CMakeFiles/wait_set_topics_with_different_rates.dir/build.make:76: CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o] Interrupt
+[19.088s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/listener.cpp.o] Interrupt
+[19.088s] gmake[1]: *** [CMakeFiles/Makefile2:263: CMakeFiles/wait_set.dir/all] Interrupt
+[19.088s] gmake[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/listener.dir/all] Interrupt
+[19.088s] gmake[1]: *** [CMakeFiles/Makefile2:419: CMakeFiles/wait_set_topics_with_different_rates.dir/all] Interrupt
+[19.088s] gmake[2]: *** [CMakeFiles/wait_set_talker.dir/build.make:76: CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o] Interrupt
+[19.089s] gmake[2]: *** [CMakeFiles/thread_safe_wait_set.dir/build.make:76: CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o] Interrupt
+[19.089s] gmake[1]: *** [CMakeFiles/Makefile2:315: CMakeFiles/thread_safe_wait_set.dir/all] Interrupt
+[19.089s] gmake[1]: *** [CMakeFiles/Makefile2:185: CMakeFiles/wait_set_talker.dir/all] Interrupt
+[19.092s] gmake[2]: *** [CMakeFiles/static_wait_set.dir/build.make:76: CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o] Interrupt
+[19.092s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/talker.cpp.o] Interrupt
+[19.092s] gmake[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/talker.dir/all] Interrupt
+[19.092s] gmake[1]: *** [CMakeFiles/Makefile2:289: CMakeFiles/static_wait_set.dir/all] Interrupt
+[19.092s] gmake[2]: *** [CMakeFiles/wait_set_topics_and_timer.dir/build.make:76: CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o] Interrupt
+[19.093s] gmake[1]: *** [CMakeFiles/Makefile2:341: CMakeFiles/wait_set_topics_and_timer.dir/all] Interrupt
+[19.093s] gmake[2]: *** [CMakeFiles/executor_random_order.dir/build.make:76: CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o] Interrupt
+[19.093s] gmake[2]: *** [CMakeFiles/wait_set_listener.dir/build.make:76: CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o] Interrupt
+[19.093s] gmake[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/executor_random_order.dir/all] Interrupt
+[19.093s] gmake[1]: *** [CMakeFiles/Makefile2:237: CMakeFiles/wait_set_listener.dir/all] Interrupt
+[19.093s] gmake[2]: *** [CMakeFiles/wait_set_random_order.dir/build.make:76: CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o] Interrupt
+[19.093s] gmake[1]: *** [CMakeFiles/Makefile2:367: CMakeFiles/wait_set_random_order.dir/all] Interrupt
+[19.093s] gmake: *** [Makefile:146: all] Interrupt
+[19.194s] Invoked command in '/home/khushhal/ros2_ws/src/build/examples_rclcpp_wait_set' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/src/build/examples_rclcpp_wait_set -- -j12 -l12

@@ -1,0 +1,34 @@
+[0.008s] Invoking command in '/home/khushhal/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/polygon_base
+[0.071s] -- The C compiler identification is GNU 13.3.0
+[0.123s] -- The CXX compiler identification is GNU 13.3.0
+[0.138s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.226s] -- Detecting C compile features
+[0.226s] -- Detecting C compile features - done
+[0.234s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.330s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.330s] -- Detecting CXX compile features
+[0.330s] -- Detecting CXX compile features - done
+[0.334s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.457s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.561s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.561s]   By not providing "Findplugin_lib.cmake" in CMAKE_MODULE_PATH this project
+[0.561s]   has asked CMake to find a package configuration file provided by
+[0.561s]   "plugin_lib", but CMake did not find one.
+[0.561s] 
+[0.562s]   Could not find a package configuration file provided by "plugin_lib" with
+[0.562s]   any of the following names:
+[0.562s] 
+[0.562s]     plugin_libConfig.cmake
+[0.562s]     plugin_lib-config.cmake
+[0.562s] 
+[0.562s]   Add the installation prefix of "plugin_lib" to CMAKE_PREFIX_PATH or set
+[0.562s]   "plugin_lib_DIR" to a directory containing one of the above files.  If
+[0.562s]   "plugin_lib" provides a separate development package or SDK, be sure it has
+[0.562s]   been installed.
+[0.562s] 
+[0.562s] [0m
+[0.562s] -- Configuring incomplete, errors occurred!
+[0.566s] Invoked command in '/home/khushhal/ros2_ws/build/polygon_base' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/polygon_base

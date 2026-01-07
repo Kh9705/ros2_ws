@@ -1,0 +1,58 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18[m[K:
+[01m[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:42:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   42 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: '%d'"[m[K, [32m[Kmessage.num[m[K);
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~[m[K
+      |                                                                 [32m[K|[m[K
+      |                                                                 [32m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type {aka long int}[m[K
+[01m[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/publisher_member_function.cpp:42:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   42 |     RCLCPP_INFO(this->get_logger(), "Publishing: '[01;36m[K%d[m[K'", message.num);
+      |                                                   [01;36m[K~^[m[K
+      |                                                    [01;36m[K|[m[K
+      |                                                    [01;36m[Kint[m[K
+      |                                                   [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:17[m[K:
+[01m[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::[01;32m[Ktopic_callback[m[K(tutorial_interfaces::msg::Num_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:34:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   34 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: '%d'"[m[K, [32m[Kmsg->num[m[K);
+      |                                     [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~[m[K
+      |                                                           [32m[K|[m[K
+      |                                                           [32m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num_type {aka long int}[m[K
+[01m[K/home/khushhal/ros2_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:34:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   34 |     RCLCPP_INFO(this->get_logger(), "I heard: '[01;36m[K%d[m[K'", msg->num);
+      |                                                [01;36m[K~^[m[K
+      |                                                 [01;36m[K|[m[K
+      |                                                 [01;36m[Kint[m[K
+      |                                                [32m[K%ld[m[K
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 75%] Built target talker
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+-- Set non-toolchain portion of runtime path of "/home/khushhal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+-- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+-- Set non-toolchain portion of runtime path of "/home/khushhal/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+-- Installing: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+-- Up-to-date: /home/khushhal/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml

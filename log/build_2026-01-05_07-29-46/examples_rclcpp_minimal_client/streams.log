@@ -1,0 +1,32 @@
+[0.040s] Invoking command in '/home/khushhal/ros2_ws/build/examples_rclcpp_minimal_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/services/minimal_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/examples_rclcpp_minimal_client
+[0.326s] -- The C compiler identification is GNU 13.3.0
+[0.563s] -- The CXX compiler identification is GNU 13.3.0
+[0.610s] -- Detecting C compiler ABI info
+[0.860s] -- Detecting C compiler ABI info - done
+[0.889s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.889s] -- Detecting C compile features
+[0.889s] -- Detecting C compile features - done
+[0.909s] -- Detecting CXX compiler ABI info
+[1.176s] -- Detecting CXX compiler ABI info - done
+[1.204s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.206s] -- Detecting CXX compile features
+[1.206s] -- Detecting CXX compile features - done
+[1.236s] -- Configuring incomplete, errors occurred!
+[1.237s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[1.237s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.237s]   has asked CMake to find a package configuration file provided by
+[1.237s]   "ament_cmake", but CMake did not find one.
+[1.237s] 
+[1.239s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.239s]   any of the following names:
+[1.239s] 
+[1.239s]     ament_cmakeConfig.cmake
+[1.239s]     ament_cmake-config.cmake
+[1.239s] 
+[1.240s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.240s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.240s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.240s]   has been installed.
+[1.240s] 
+[1.240s] [0m
+[1.280s] Invoked command in '/home/khushhal/ros2_ws/build/examples_rclcpp_minimal_client' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/services/minimal_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/examples_rclcpp_minimal_client

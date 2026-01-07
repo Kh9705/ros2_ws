@@ -1,0 +1,47 @@
+[0.029s] Invoking command in '/home/khushhal/ros2_ws/src/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/services/minimal_client -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/src/install/examples_rclcpp_minimal_client
+[0.100s] -- The C compiler identification is GNU 13.3.0
+[0.192s] -- The CXX compiler identification is GNU 13.3.0
+[0.220s] -- Detecting C compiler ABI info
+[0.347s] -- Detecting C compiler ABI info - done
+[0.362s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.362s] -- Detecting C compile features
+[0.363s] -- Detecting C compile features - done
+[0.379s] -- Detecting CXX compiler ABI info
+[0.535s] -- Detecting CXX compiler ABI info - done
+[0.560s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.560s] -- Detecting CXX compile features
+[0.561s] -- Detecting CXX compile features - done
+[0.565s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.835s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.035s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.104s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.126s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.342s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.419s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.424s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.559s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.591s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.626s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.744s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.936s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.937s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.938s] -- Configured cppcheck include dirs: 
+[1.938s] -- Configured cppcheck exclude dirs and/or files: 
+[1.939s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.939s] -- Configured cpplint exclude dirs and/or files: 
+[1.940s] -- Added test 'lint_cmake' to check CMake code style
+[1.941s] -- Added test 'uncrustify' to check C / C++ code style
+[1.941s] -- Configured uncrustify additional arguments: 
+[1.943s] -- Added test 'xmllint' to check XML markup files
+[1.944s] -- Configuring done (1.9s)
+[1.963s] -- Generating done (0.0s)
+[1.970s] -- Build files have been written to: /home/khushhal/ros2_ws/src/build/examples_rclcpp_minimal_client
+[2.016s] Invoked command in '/home/khushhal/ros2_ws/src/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/services/minimal_client -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/src/install/examples_rclcpp_minimal_client
+[2.017s] Invoking command in '/home/khushhal/ros2_ws/src/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/src/build/examples_rclcpp_minimal_client -- -j12 -l12
+[2.129s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[19.036s] gmake[2]: *** [CMakeFiles/client_main.dir/build.make:76: CMakeFiles/client_main.dir/main.cpp.o] Interrupt
+[19.084s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/client_main.dir/all] Interrupt
+[19.084s] gmake: *** [Makefile:146: all] Interrupt
+[19.193s] Invoked command in '/home/khushhal/ros2_ws/src/build/examples_rclcpp_minimal_client' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/src/build/examples_rclcpp_minimal_client -- -j12 -l12

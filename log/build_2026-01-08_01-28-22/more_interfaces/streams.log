@@ -1,0 +1,99 @@
+[0.009s] Invoking command in '/home/khushhal/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/more_interfaces -- -j12 -l12
+[0.055s] [  2%] Built target more_interfaces__rosidl_generator_type_description
+[0.063s] [  2%] Built target ament_cmake_python_copy_more_interfaces
+[0.072s] [  5%] Built target more_interfaces__cpp
+[0.074s] [ 19%] Built target more_interfaces__rosidl_generator_c
+[0.097s] [ 36%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.097s] [ 36%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.097s] [ 44%] Built target more_interfaces__rosidl_typesupport_c
+[0.098s] [ 52%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.099s] [ 61%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.100s] [ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.121s] [ 69%] Built target more_interfaces
+[0.140s] [ 72%] Built target more_interfaces__py
+[0.149s] [ 75%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[0.162s] [ 80%] Built target more_interfaces__rosidl_generator_py
+[0.186s] [ 97%] Built target more_interfaces_s__rosidl_typesupport_c
+[0.186s] [ 97%] Built target more_interfaces_s__rosidl_typesupport_introspection_c
+[0.186s] [ 97%] Built target more_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.259s] running egg_info
+[0.278s] writing more_interfaces.egg-info/PKG-INFO
+[0.279s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[0.279s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[0.333s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.334s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.362s] [ 97%] Built target ament_cmake_python_build_more_interfaces_egg
+[1.932s] [01m[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:[m[K In constructor ‘[01m[KAddresssBookPublisher::[01;32m[KAddresssBookPublisher[m[K()[m[K’:
+[1.932s] [01m[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:15:40:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.932s]    15 |         address_book_publisher_= this->[01;31m[Kcreate_publisher<more_interfaces[m[K;:msg::AddressBook>("address_book",10);
+[1.932s]       |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.933s] [01m[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:15:40:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > > >[m[K’} and ‘[01m[K<unresolved overloaded function type>[m[K’)
+[1.933s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+[1.933s]                  from [01m[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:2[m[K:
+[1.933s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:418:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(const std::shared_ptr<_Yp>&) [35m[K[with _Tp = rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > >][m[K[m[K’
+[1.933s]   418 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[1.933s]       |         [01;36m[K^~~~~~~~[m[K
+[1.933s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:418:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.933s] [01m[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:15:40:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Yp[m[K’
+[1.933s]    15 |         address_book_publisher_= this->[01;36m[Kcreate_publisher<more_interfaces[m[K;:msg::AddressBook>("address_book",10);
+[1.933s]       |                                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.933s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:429:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::auto_ptr<_Up>&&) [35m[K[with _Tp = rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > >][m[K[m[K’
+[1.933s]   429 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[1.933s]       |         [01;36m[K^~~~~~~~[m[K
+[1.933s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:429:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.933s] [01m[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:15:40:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Yp[m[K’
+[1.933s]    15 |         address_book_publisher_= this->[01;36m[Kcreate_publisher<more_interfaces[m[K;:msg::AddressBook>("address_book",10);
+[1.933s]       |                                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.934s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:446:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::shared_ptr<_Yp>&&) [35m[K[with _Tp = rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > >][m[K[m[K’
+[1.934s]   446 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[1.934s]       |         [01;36m[K^~~~~~~~[m[K
+[1.934s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:446:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.934s] [01m[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:15:40:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Yp[m[K’
+[1.934s]    15 |         address_book_publisher_= this->[01;36m[Kcreate_publisher<more_interfaces[m[K;:msg::AddressBook>("address_book",10);
+[1.934s]       |                                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.934s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:454:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::unique_ptr<_Up, _Ep>&&) [35m[K[with _Del = _Yp; _Tp = rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > >][m[K[m[K’
+[1.934s]   454 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[1.934s]       |         [01;36m[K^~~~~~~~[m[K
+[1.934s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:454:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.934s] [01m[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:15:40:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Yp[m[K’
+[1.934s]    15 |         address_book_publisher_= this->[01;36m[Kcreate_publisher<more_interfaces[m[K;:msg::AddressBook>("address_book",10);
+[1.934s]       |                                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.934s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:414:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(const std::shared_ptr<_Tp>&) [35m[K[with _Tp = rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > >][m[K[m[K’
+[1.934s]   414 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[1.934s]       |                   [01;36m[K^~~~~~~~[m[K
+[1.934s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:414:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > > >&[m[K’
+[1.934s]   414 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[1.935s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[1.935s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:438:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::shared_ptr<_Tp>&&) [35m[K[with _Tp = rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > >][m[K[m[K’
+[1.935s]   438 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[1.935s]       |       [01;36m[K^~~~~~~~[m[K
+[1.935s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:438:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[K<unresolved overloaded function type>[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<more_interfaces::msg::AddressBook_<std::allocator<void> > > >&&[m[K’
+[1.935s]   438 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[1.935s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[1.935s] [01m[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:15:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+[1.935s]    15 |         address_book_publisher_= this->create_publisher<more_interfaces;[01;31m[K:[m[Kmsg::AddressBook>("address_book",10);
+[1.935s]       |                                                                         [01;31m[K^[m[K
+[1.935s] [01m[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:[m[K In lambda function:
+[1.935s] [01m[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:21:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kpphone_number[m[K’; did you mean ‘[01m[Kphone_number[m[K’?
+[1.935s]    21 |             message.[01;31m[Kpphone_number[m[K="1234567899";
+[1.935s]       |                     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.935s]       |                     [32m[Kphone_number[m[K
+[1.941s] [01m[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[1.941s] [01m[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:39:33:[m[K [01;31m[Kerror: [m[K‘[01m[KAddressBookPublisher[m[K’ was not declared in this scope; did you mean ‘[01m[KAddresssBookPublisher[m[K’?
+[1.942s]    39 |   rclcpp::spin(std::make_shared<[01;31m[KAddressBookPublisher[m[K>());
+[1.942s]       |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.942s]       |                                 [32m[KAddresssBookPublisher[m[K
+[1.942s] [01m[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:39:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.942s]    39 |   rclcpp::spin([01;31m[Kstd::make_shared<AddressBookPublisher>()[m[K);
+[1.942s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.942s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[1.942s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.942s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.942s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.942s] [01m[K/home/khushhal/ros2_ws/src/more_interfaces/src/publish_address_book.cpp:39:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.942s]    39 |   rclcpp::spin([01;31m[Kstd::make_shared<AddressBookPublisher>()[m[K);
+[1.942s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.508s] gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1
+[2.508s] gmake[1]: *** [CMakeFiles/Makefile2:626: CMakeFiles/publish_address_book.dir/all] Error 2
+[2.509s] gmake: *** [Makefile:146: all] Error 2
+[2.511s] Invoked command in '/home/khushhal/ros2_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/more_interfaces -- -j12 -l12

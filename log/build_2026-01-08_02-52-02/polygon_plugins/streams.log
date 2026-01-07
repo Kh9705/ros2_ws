@@ -1,0 +1,32 @@
+[0.007s] Invoking command in '/home/khushhal/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/khushhal/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khushhal/ros2_ws/install/polygon_base:/home/khushhal/ros2_ws/install/cpp_pubsub:/home/khushhal/ros2_ws/install/tutorial_interfaces:/home/khushhal/ros2_ws/install/more_interfaces:/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_parameters:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/polygon_plugins -- -j12 -l12
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[0.610s] [100%] [32m[1mLinking CXX shared library libpolygon_plugins.so[0m
+[0.678s] [100%] Built target polygon_plugins
+[0.689s] Invoked command in '/home/khushhal/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/khushhal/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khushhal/ros2_ws/install/polygon_base:/home/khushhal/ros2_ws/install/cpp_pubsub:/home/khushhal/ros2_ws/install/tutorial_interfaces:/home/khushhal/ros2_ws/install/more_interfaces:/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_parameters:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/polygon_plugins -- -j12 -l12
+[0.690s] Invoking command in '/home/khushhal/ros2_ws/build/polygon_plugins': AMENT_PREFIX_PATH=/home/khushhal/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khushhal/ros2_ws/install/polygon_base:/home/khushhal/ros2_ws/install/cpp_pubsub:/home/khushhal/ros2_ws/install/tutorial_interfaces:/home/khushhal/ros2_ws/install/more_interfaces:/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_parameters:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/khushhal/ros2_ws/build/polygon_plugins
+[0.696s] -- Install configuration: ""
+[0.696s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml
+[0.696s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so
+[0.697s] -- Set non-toolchain portion of runtime path of "/home/khushhal/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so" to ""
+[0.697s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/include
+[0.697s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/include/polygon_plugins
+[0.697s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/include/polygon_plugins/visibility_control.h
+[0.697s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/include/polygon_plugins/polygon_plugins.hpp
+[0.697s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/plugins.xml
+[0.697s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/package_run_dependencies/polygon_plugins
+[0.698s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/parent_prefix_path/polygon_plugins
+[0.698s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.sh
+[0.698s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/ament_prefix_path.dsv
+[0.698s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.sh
+[0.698s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/environment/path.dsv
+[0.698s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.bash
+[0.698s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.sh
+[0.698s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.zsh
+[0.699s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/local_setup.dsv
+[0.699s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.dsv
+[0.699s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/packages/polygon_plugins
+[0.699s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/ament_index/resource_index/polygon_base__pluginlib__plugin/polygon_plugins
+[0.699s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig.cmake
+[0.699s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/polygon_pluginsConfig-version.cmake
+[0.699s] -- Installing: /home/khushhal/ros2_ws/install/polygon_plugins/share/polygon_plugins/package.xml
+[0.701s] Invoked command in '/home/khushhal/ros2_ws/build/polygon_plugins' returned '0': AMENT_PREFIX_PATH=/home/khushhal/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khushhal/ros2_ws/install/polygon_base:/home/khushhal/ros2_ws/install/cpp_pubsub:/home/khushhal/ros2_ws/install/tutorial_interfaces:/home/khushhal/ros2_ws/install/more_interfaces:/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_parameters:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/khushhal/ros2_ws/build/polygon_plugins

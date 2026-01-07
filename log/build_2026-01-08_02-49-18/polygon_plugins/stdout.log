@@ -1,0 +1,5 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found polygon_base: 0.0.0 (/home/khushhal/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+-- Found pluginlib: 5.4.3 (/opt/ros/jazzy/share/pluginlib/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Configuring incomplete, errors occurred!

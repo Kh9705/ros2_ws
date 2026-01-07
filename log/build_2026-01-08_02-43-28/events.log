@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000285] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000343] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000369] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000531] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000561] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000581] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000598] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000613] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000633] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000650] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000667] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000867] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000895] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000908] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000919] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000930] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000941] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000950] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000960] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000976] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001047] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001097] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001115] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001131] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001140] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001150] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001160] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001171] (-) JobUnselected: {'identifier': 'my_package2'}
+[0.001180] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001192] (polygon_base) JobQueued: {'identifier': 'polygon_base', 'dependencies': OrderedDict()}
+[0.001206] (polygon_plugins) JobQueued: {'identifier': 'polygon_plugins', 'dependencies': OrderedDict({'polygon_base': '/home/khushhal/ros2_ws/install/polygon_base'})}
+[0.001224] (polygon_base) JobStarted: {'identifier': 'polygon_base'}
+[0.007706] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'cmake'}
+[0.008096] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '/home/khushhal/ros2_ws/src/polygon_base', '-DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/polygon_base'], 'cwd': '/home/khushhal/ros2_ws/build/polygon_base', 'env': OrderedDict({'USER': 'khushhal', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/khushhal/ros2_ws/install/tutorial_interfaces/lib:/home/khushhal/ros2_ws/install/more_interfaces/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/khushhal', 'OLDPWD': '/home/khushhal/ros2_ws/src', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/khushhal/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3369', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/khushhal/ros2_ws/install', 'LOGNAME': 'khushhal', '_P9K_SSH_TTY': '/dev/pts/2', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'khushhal', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:@/tmp/.ICE-unix/3115,unix/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:/tmp/.ICE-unix/3115', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b8f7ac60_67e6_4203_b895_6822d3e8a3a9', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.288', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/khushhal/ros2_ws/install/cpp_pubsub:/home/khushhal/ros2_ws/install/tutorial_interfaces:/home/khushhal/ros2_ws/install/more_interfaces:/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_parameters:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/khushhal/ros2_ws/build/polygon_base', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/2', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/khushhal/ros2_ws/install/more_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/khushhal/ros2_ws/install/cpp_pubsub:/home/khushhal/ros2_ws/install/tutorial_interfaces:/home/khushhal/ros2_ws/install/more_interfaces:/home/khushhal/ros2_ws/install/cpp_srvcli:/home/khushhal/ros2_ws/install/cpp_parameters:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.071731] (polygon_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099337] (-) TimerEvent: {}
+[0.123692] (polygon_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.139456] (polygon_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199437] (-) TimerEvent: {}
+[0.219271] (polygon_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.226551] (polygon_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.226975] (polygon_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.227414] (polygon_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.235638] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299529] (-) TimerEvent: {}
+[0.322854] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.330837] (polygon_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.331189] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.331667] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.334821] (polygon_base) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.399627] (-) TimerEvent: {}
+[0.458558] (polygon_base) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.499729] (-) TimerEvent: {}
+[0.562170] (polygon_base) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[0.562392] (polygon_base) StderrLine: {'line': b'  By not providing "Findplugin_lib.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.562478] (polygon_base) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.562550] (polygon_base) StderrLine: {'line': b'  "plugin_lib", but CMake did not find one.\n'}
+[0.562620] (polygon_base) StderrLine: {'line': b'\n'}
+[0.562686] (polygon_base) StderrLine: {'line': b'  Could not find a package configuration file provided by "plugin_lib" with\n'}
+[0.562748] (polygon_base) StderrLine: {'line': b'  any of the following names:\n'}
+[0.562817] (polygon_base) StderrLine: {'line': b'\n'}
+[0.562877] (polygon_base) StderrLine: {'line': b'    plugin_libConfig.cmake\n'}
+[0.562942] (polygon_base) StderrLine: {'line': b'    plugin_lib-config.cmake\n'}
+[0.563007] (polygon_base) StderrLine: {'line': b'\n'}
+[0.563067] (polygon_base) StderrLine: {'line': b'  Add the installation prefix of "plugin_lib" to CMAKE_PREFIX_PATH or set\n'}
+[0.563144] (polygon_base) StderrLine: {'line': b'  "plugin_lib_DIR" to a directory containing one of the above files.  If\n'}
+[0.563202] (polygon_base) StderrLine: {'line': b'  "plugin_lib" provides a separate development package or SDK, be sure it has\n'}
+[0.563254] (polygon_base) StderrLine: {'line': b'  been installed.\n'}
+[0.563306] (polygon_base) StderrLine: {'line': b'\n'}
+[0.563357] (polygon_base) StderrLine: {'line': b'\x1b[0m\n'}
+[0.563410] (polygon_base) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.567236] (polygon_base) CommandEnded: {'returncode': 1}
+[0.586352] (polygon_base) JobEnded: {'identifier': 'polygon_base', 'rc': 1}
+[0.596929] (polygon_plugins) JobSkipped: {'identifier': 'polygon_plugins'}
+[0.596986] (-) EventReactorShutdown: {}

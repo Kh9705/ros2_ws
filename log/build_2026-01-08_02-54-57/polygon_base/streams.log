@@ -1,0 +1,29 @@
+[0.009s] Invoking command in '/home/khushhal/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/polygon_base -- -j12 -l12
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/area_node.dir/src/area_node.cpp.o[0m
+[2.334s] [100%] [32m[1mLinking CXX executable area_node[0m
+[2.427s] [100%] Built target area_node
+[2.438s] Invoked command in '/home/khushhal/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/polygon_base -- -j12 -l12
+[2.447s] Invoking command in '/home/khushhal/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/khushhal/ros2_ws/build/polygon_base
+[2.454s] -- Install configuration: ""
+[2.454s] -- Installing: /home/khushhal/ros2_ws/install/polygon_base/lib/polygon_base/area_node
+[2.455s] -- Set non-toolchain portion of runtime path of "/home/khushhal/ros2_ws/install/polygon_base/lib/polygon_base/area_node" to ""
+[2.455s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/include
+[2.455s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/include/polygon_base
+[2.455s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/include/polygon_base/regular_polygon.hpp
+[2.455s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/share/ament_index/resource_index/package_run_dependencies/polygon_base
+[2.455s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/share/ament_index/resource_index/parent_prefix_path/polygon_base
+[2.455s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.sh
+[2.455s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/share/polygon_base/environment/ament_prefix_path.dsv
+[2.456s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/share/polygon_base/environment/path.sh
+[2.456s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/share/polygon_base/environment/path.dsv
+[2.456s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/share/polygon_base/local_setup.bash
+[2.456s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/share/polygon_base/local_setup.sh
+[2.456s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/share/polygon_base/local_setup.zsh
+[2.456s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/share/polygon_base/local_setup.dsv
+[2.456s] -- Installing: /home/khushhal/ros2_ws/install/polygon_base/share/polygon_base/package.dsv
+[2.456s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/share/ament_index/resource_index/packages/polygon_base
+[2.456s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/share/polygon_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.456s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig.cmake
+[2.456s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/share/polygon_base/cmake/polygon_baseConfig-version.cmake
+[2.456s] -- Up-to-date: /home/khushhal/ros2_ws/install/polygon_base/share/polygon_base/package.xml
+[2.457s] Invoked command in '/home/khushhal/ros2_ws/build/polygon_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/khushhal/ros2_ws/build/polygon_base
