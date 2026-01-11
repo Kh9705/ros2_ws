@@ -1,0 +1,20 @@
+[1.471s] Invoking command in '/home/khushhal/ros2_ws/src/launch_tutorial': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/khushhal/ros2_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khushhal/ros2_ws/install/launch_tutorial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/khushhal/ros2_ws/build/launch_tutorial/build install --record /home/khushhal/ros2_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data
+[1.903s] running egg_info
+[1.947s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[1.948s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[1.948s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[1.949s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[2.029s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[2.030s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[2.031s] running build
+[2.031s] running build_py
+[2.031s] running install
+[2.042s] running install_lib
+[2.086s] running install_data
+[2.086s] copying launch/example_event_handlers.launch.py -> /home/khushhal/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch
+[2.086s] running install_egg_info
+[2.129s] removing '/home/khushhal/ros2_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial-0.0.0-py3.12.egg-info' (and everything under it)
+[2.130s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/khushhal/ros2_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial-0.0.0-py3.12.egg-info
+[2.132s] running install_scripts
+[2.404s] writing list of installed files to '/home/khushhal/ros2_ws/build/launch_tutorial/install.log'
+[2.453s] Invoked command in '/home/khushhal/ros2_ws/src/launch_tutorial' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/khushhal/ros2_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khushhal/ros2_ws/install/launch_tutorial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/khushhal/ros2_ws/build/launch_tutorial/build install --record /home/khushhal/ros2_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data

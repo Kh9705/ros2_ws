@@ -1,0 +1,156 @@
+[0.080s] Invoking command in '/home/khushhal/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/tutorial_interfaces -- -j12 -l12
+[0.226s] [  1%] Built target tutorial_interfaces__rosidl_generator_type_description
+[0.287s] [  1%] Built target ament_cmake_python_copy_tutorial_interfaces
+[0.354s] [  3%] Built target tutorial_interfaces__cpp
+[0.493s] [ 24%] Built target tutorial_interfaces__rosidl_generator_c
+[0.713s] [ 33%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.724s] [ 42%] Built target tutorial_interfaces__rosidl_typesupport_c
+[0.735s] [ 51%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[0.760s] [ 61%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[0.775s] [ 72%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[0.781s] [ 79%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[0.963s] [ 79%] Built target tutorial_interfaces
+[1.185s] [ 81%] Built target tutorial_interfaces__py
+[1.457s] [ 88%] Built target tutorial_interfaces__rosidl_generator_py
+[1.675s] [ 92%] Built target tutorial_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.706s] [ 96%] Built target tutorial_interfaces_s__rosidl_typesupport_c
+[1.721s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_introspection_c
+[1.905s] running egg_info
+[2.014s] writing tutorial_interfaces.egg-info/PKG-INFO
+[2.019s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[2.019s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[2.618s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[2.619s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[2.871s] [100%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[2.947s] Invoked command in '/home/khushhal/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/tutorial_interfaces -- -j12 -l12
+[2.948s] Invoking command in '/home/khushhal/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/khushhal/ros2_ws/build/tutorial_interfaces
+[3.554s] -- Install configuration: ""
+[3.563s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[3.563s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.json
+[3.564s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.json
+[3.564s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.json
+[3.564s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.564s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.564s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.565s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c
+[3.565s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__description.c
+[3.565s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__description.c
+[3.565s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[3.565s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[3.565s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[3.565s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[3.566s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[3.566s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[3.566s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[3.566s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[3.566s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[3.566s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[3.566s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.567s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[3.567s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.572s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.573s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__description.c
+[3.573s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[3.573s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[3.573s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[3.574s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[3.574s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[3.574s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[3.574s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[3.574s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[3.575s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[3.575s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.575s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.575s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.576s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[3.591s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[3.591s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.592s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.592s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.592s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[3.592s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.592s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.592s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.593s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.593s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[3.593s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.hpp
+[3.593s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[3.593s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.hpp
+[3.593s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[3.594s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[3.594s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[3.594s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[3.594s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[3.594s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.595s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[3.595s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.595s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.595s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[3.595s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[3.595s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.hpp
+[3.595s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[3.596s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[3.596s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.596s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.596s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.596s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[3.596s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[3.596s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[3.597s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.597s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.597s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.597s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[3.597s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.597s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.597s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.598s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.598s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.598s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.599s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[3.599s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[3.599s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[3.599s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[3.599s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.599s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.600s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[3.600s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[3.600s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[3.600s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[3.600s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[3.600s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[3.600s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[3.601s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[3.601s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[3.601s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[3.602s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[3.602s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[3.602s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[3.602s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[3.602s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[3.602s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.602s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[3.602s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[3.603s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[3.603s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info
+[3.603s] -- Installing: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[3.603s] -- Installing: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[3.603s] -- Installing: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[3.603s] -- Installing: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[3.604s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces
+[3.604s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg
+[3.604s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py
+[3.604s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere_s.c
+[3.604s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num_s.c
+[3.604s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere.py
+[3.604s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py
+[3.605s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.605s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[3.605s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+[3.605s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.605s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.605s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.605s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv
+[3.606s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints.py
+[3.606s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[3.606s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py
+[3.606s] -- Up-to-date: /home/khushhal/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py

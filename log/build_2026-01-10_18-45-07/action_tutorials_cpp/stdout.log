@@ -1,0 +1,31 @@
+[ 75%] Built target fibonacci_action_server
+[ 75%] Built target action_server
+[ 75%] Built target fibonacci_action_client
+[ 87%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libaction_client.so[0m
+[100%] Built target action_client
+-- Install configuration: ""
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server
+-- Set non-toolchain portion of runtime path of "/home/khushhal/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server" to ""
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/lib/libaction_server.so
+-- Set non-toolchain portion of runtime path of "/home/khushhal/ros2_ws/install/action_tutorials_cpp/lib/libaction_server.so" to ""
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_client
+-- Set non-toolchain portion of runtime path of "/home/khushhal/ros2_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_client" to ""
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/lib/libaction_client.so
+-- Set non-toolchain portion of runtime path of "/home/khushhal/ros2_ws/install/action_tutorials_cpp/lib/libaction_client.so" to ""
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+-- Installing: /home/khushhal/ros2_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml

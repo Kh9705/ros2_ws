@@ -1,0 +1,26 @@
+[0.120s] Invoking command in '/home/khushhal/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j12 -l12
+[2.892s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[2.892s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[2.893s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[2.893s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[2.893s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[2.893s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[3.557s] gmake[2]: *** [CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/build.make:76: CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o] Interrupt
+[3.557s] gmake[2]: *** [CMakeFiles/publisher_member_function.dir/build.make:76: CMakeFiles/publisher_member_function.dir/member_function.cpp.o] Interrupt
+[3.558s] gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/all] Interrupt
+[3.558s] gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/publisher_member_function.dir/all] Interrupt
+[3.558s] gmake[2]: *** wait: No child processes.  Stop.
+[3.558s] gmake[2]: *** Waiting for unfinished jobs....
+[3.558s] gmake[2]: *** wait: No child processes.  Stop.
+[3.558s] gmake[2]: *** wait: No child processes.  Stop.
+[3.558s] gmake[2]: *** Waiting for unfinished jobs....
+[3.558s] gmake[2]: *** wait: No child processes.  Stop.
+[3.559s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/publisher_not_composable.dir/all] Error 2
+[3.559s] gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/publisher_wait_for_all_acked.dir/all] Error 2
+[3.559s] gmake[2]: *** wait: No child processes.  Stop.
+[3.559s] gmake[2]: *** Waiting for unfinished jobs....
+[3.559s] gmake[2]: *** wait: No child processes.  Stop.
+[3.559s] gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/publisher_lambda.dir/all] Error 2
+[3.559s] gmake[2]: *** [CMakeFiles/publisher_member_function_with_type_adapter.dir/build.make:76: CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o] Interrupt
+[3.560s] gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/publisher_member_function_with_type_adapter.dir/all] Interrupt
+[3.560s] gmake: *** [Makefile:146: all] Interrupt

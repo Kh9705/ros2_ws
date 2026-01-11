@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.001193] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.001401] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.001477] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.001525] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001559] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001597] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001629] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001667] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001735] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.002162] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.002219] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.002255] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.002291] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.002315] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.002334] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.002353] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.002371] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.002400] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.002446] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.002488] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002853] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002948] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002976] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002997] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.003017] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.003050] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.003074] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.003096] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.003116] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003134] (-) JobUnselected: {'identifier': 'my_package2'}
+[0.003603] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.003733] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.003760] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.003860] (launch_tutorial) JobQueued: {'identifier': 'launch_tutorial', 'dependencies': OrderedDict()}
+[0.003898] (launch_tutorial) JobStarted: {'identifier': 'launch_tutorial'}
+[0.099498] (-) TimerEvent: {}
+[0.199914] (-) TimerEvent: {}
+[0.300340] (-) TimerEvent: {}
+[0.400788] (-) TimerEvent: {}
+[0.501236] (-) TimerEvent: {}
+[0.601727] (-) TimerEvent: {}
+[0.702130] (-) TimerEvent: {}
+[0.802552] (-) TimerEvent: {}
+[0.902982] (-) TimerEvent: {}
+[1.003409] (-) TimerEvent: {}
+[1.103834] (-) TimerEvent: {}
+[1.204338] (-) TimerEvent: {}
+[1.304967] (-) TimerEvent: {}
+[1.405463] (-) TimerEvent: {}
+[1.505967] (-) TimerEvent: {}
+[1.606558] (-) TimerEvent: {}
+[1.707012] (-) TimerEvent: {}
+[1.807503] (-) TimerEvent: {}
+[1.844534] (launch_tutorial) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/launch_tutorial', 'build', '--build-base', '/home/khushhal/ros2_ws/build/launch_tutorial/build', 'install', '--record', '/home/khushhal/ros2_ws/build/launch_tutorial/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/khushhal/ros2_ws/src/launch_tutorial', 'env': {'USER': 'khushhal', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/khushhal', 'OLDPWD': '/home/khushhal/ros2_ws/src', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/khushhal/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '3312', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', '_colcon_cd_root': '/opt/ros/jazzy/', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'khushhal', '_P9K_SSH_TTY': '/dev/pts/3', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'khushhal', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:@/tmp/.ICE-unix/3056,unix/khushhal-Vivobook-ASUSLaptop-M6500QC-M6500QC:/tmp/.ICE-unix/3056', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f7377576_6524_4555_aeb6_25364f3204db', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LANG': 'en_US.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.221', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/khushhal/ros2_ws/build/launch_tutorial', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/3', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/khushhal/ros2_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khushhal/ros2_ws/install/launch_tutorial/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.907642] (-) TimerEvent: {}
+[2.008024] (-) TimerEvent: {}
+[2.108353] (-) TimerEvent: {}
+[2.208686] (-) TimerEvent: {}
+[2.309024] (-) TimerEvent: {}
+[2.315886] (launch_tutorial) StdoutLine: {'line': b'running egg_info\n'}
+[2.316405] (launch_tutorial) StdoutLine: {'line': b'creating ../../build/launch_tutorial/launch_tutorial.egg-info\n'}
+[2.354339] (launch_tutorial) StdoutLine: {'line': b'writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO\n'}
+[2.354844] (launch_tutorial) StdoutLine: {'line': b'writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt\n'}
+[2.355262] (launch_tutorial) StdoutLine: {'line': b'writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt\n'}
+[2.355608] (launch_tutorial) StdoutLine: {'line': b'writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt\n'}
+[2.355756] (launch_tutorial) StdoutLine: {'line': b"writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'\n"}
+[2.409161] (-) TimerEvent: {}
+[2.437495] (launch_tutorial) StdoutLine: {'line': b"reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'\n"}
+[2.438655] (launch_tutorial) StdoutLine: {'line': b"writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'\n"}
+[2.438987] (launch_tutorial) StdoutLine: {'line': b'running build\n'}
+[2.439159] (launch_tutorial) StdoutLine: {'line': b'running build_py\n'}
+[2.439349] (launch_tutorial) StdoutLine: {'line': b'creating /home/khushhal/ros2_ws/build/launch_tutorial/build\n'}
+[2.439563] (launch_tutorial) StdoutLine: {'line': b'creating /home/khushhal/ros2_ws/build/launch_tutorial/build/lib\n'}
+[2.439808] (launch_tutorial) StdoutLine: {'line': b'creating /home/khushhal/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial\n'}
+[2.440002] (launch_tutorial) StdoutLine: {'line': b'copying launch_tutorial/__init__.py -> /home/khushhal/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial\n'}
+[2.440196] (launch_tutorial) StdoutLine: {'line': b'running install\n'}
+[2.450920] (launch_tutorial) StdoutLine: {'line': b'running install_lib\n'}
+[2.492778] (launch_tutorial) StdoutLine: {'line': b'creating /home/khushhal/ros2_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial\n'}
+[2.493265] (launch_tutorial) StdoutLine: {'line': b'copying /home/khushhal/ros2_ws/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /home/khushhal/ros2_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial\n'}
+[2.493994] (launch_tutorial) StdoutLine: {'line': b'byte-compiling /home/khushhal/ros2_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial/__init__.py to __init__.cpython-312.pyc\n'}
+[2.494446] (launch_tutorial) StdoutLine: {'line': b'running install_data\n'}
+[2.494975] (launch_tutorial) StdoutLine: {'line': b'creating /home/khushhal/ros2_ws/install/launch_tutorial/share/ament_index\n'}
+[2.495211] (launch_tutorial) StdoutLine: {'line': b'creating /home/khushhal/ros2_ws/install/launch_tutorial/share/ament_index/resource_index\n'}
+[2.495409] (launch_tutorial) StdoutLine: {'line': b'creating /home/khushhal/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/packages\n'}
+[2.495654] (launch_tutorial) StdoutLine: {'line': b'copying resource/launch_tutorial -> /home/khushhal/ros2_ws/install/launch_tutorial/share/ament_index/resource_index/packages\n'}
+[2.495782] (launch_tutorial) StdoutLine: {'line': b'copying package.xml -> /home/khushhal/ros2_ws/install/launch_tutorial/share/launch_tutorial\n'}
+[2.495895] (launch_tutorial) StdoutLine: {'line': b'creating /home/khushhal/ros2_ws/install/launch_tutorial/share/launch_tutorial/launch\n'}
+[2.496118] (launch_tutorial) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.509276] (-) TimerEvent: {}
+[2.540269] (launch_tutorial) StdoutLine: {'line': b'Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/khushhal/ros2_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial-0.0.0-py3.12.egg-info\n'}
+[2.542502] (launch_tutorial) StdoutLine: {'line': b'running install_scripts\n'}
+[2.609419] (-) TimerEvent: {}
+[2.709839] (-) TimerEvent: {}
+[2.802280] (launch_tutorial) StdoutLine: {'line': b"writing list of installed files to '/home/khushhal/ros2_ws/build/launch_tutorial/install.log'\n"}
+[2.809985] (-) TimerEvent: {}
+[2.852470] (launch_tutorial) CommandEnded: {'returncode': 0}
+[2.867209] (launch_tutorial) JobEnded: {'identifier': 'launch_tutorial', 'rc': 0}
+[2.868578] (-) EventReactorShutdown: {}

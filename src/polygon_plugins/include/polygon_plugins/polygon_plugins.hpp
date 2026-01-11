@@ -1,49 +1,19 @@
-#include <polygon_base/regular_polygon.hpp>
-#include <cmath>
+#ifndef POLYGON_PLUGINS__POLYGON_PLUGINS_HPP_
+#define POLYGON_PLUGINS__POLYGON_PLUGINS_HPP_
+
+#include "polygon_plugins/visibility_control.h"
 
 namespace polygon_plugins
 {
-  class Square : public polygon_base::RegularPolygon
-  {
-    public:
-      void initialize(double side_length) override
-      {
-        side_length_ = side_length;
-      }
 
-      double area() override
-      {
-        return side_length_ * side_length_;
-      }
+class PolygonPlugins
+{
+public:
+  PolygonPlugins();
 
-    protected:
-      double side_length_;
-  };
+  virtual ~PolygonPlugins();
+};
 
-  class Triangle : public polygon_base::RegularPolygon
-  {
-    public:
-      void initialize(double side_length) override
-      {
-        side_length_ = side_length;
-      }
+}  // namespace polygon_plugins
 
-      double area() override
-      {
-        return 0.5 * side_length_ * getHeight();
-      }
-
-      double getHeight()
-      {
-        return sqrt((side_length_ * side_length_) - ((side_length_ / 2) * (side_length_ / 2)));
-      }
-
-    protected:
-      double side_length_;
-  };
-}
-
-#include <pluginlib/class_list_macros.hpp>
-
-PLUGINLIB_EXPORT_CLASS(polygon_plugins::Square, polygon_base::RegularPolygon)
-PLUGINLIB_EXPORT_CLASS(polygon_plugins::Triangle, polygon_base::RegularPolygon)
+#endif  // POLYGON_PLUGINS__POLYGON_PLUGINS_HPP_

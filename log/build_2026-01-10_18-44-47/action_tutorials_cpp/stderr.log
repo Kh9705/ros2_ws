@@ -1,0 +1,20 @@
+[01m[K/home/khushhal/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:64:35:[m[K [01;31m[Kerror: [m[K‘[01m[KGoalHandle[m[K’ does not name a type
+   64 | void goal_response_callback(const [01;31m[KGoalHandle[m[K::SharedPtr & goal_handle)
+      |                                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/khushhal/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:64:57:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   64 | void goal_response_callback(const GoalHandle::SharedPtr [01;31m[K&[m[K goal_handle)
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/khushhal/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:64:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   64 | void goal_response_callback[34m[K([m[Kconst GoalHandle::SharedPtr[01;31m[K [m[K[32m[K&[m[K goal_handle)
+      |                            [34m[K~[m[K                           [01;31m[K^[m[K[32m[K~[m[K
+      |                                                        [32m[K)[m[K
+[01m[K/home/khushhal/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:64:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   64 | void goal_response_callback(const GoalHandle::SharedPtr [01;31m[K&[m[K goal_handle)
+      |                                                         [01;31m[K^[m[K
+      |                                                          [32m[K;[m[K
+[01m[K/home/khushhal/ros2_ws/src/action_tutorials_cpp/src/fibonacci_action_client.cpp:64:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ does not name a type
+   64 | void goal_response_callback(const GoalHandle::SharedPtr & [01;31m[Kgoal_handle[m[K)
+      |                                                           [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

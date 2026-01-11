@@ -1,0 +1,7 @@
+[0.090s] Invoking command in '/home/khushhal/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/examples_rclcpp_minimal_composition -- -j12 -l12
+[0.497s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[0.497s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[3.567s] gmake[2]: *** [CMakeFiles/composition_nodes.dir/build.make:90: CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o] Interrupt
+[3.570s] gmake[2]: *** [CMakeFiles/composition_nodes.dir/build.make:76: CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o] Interrupt
+[3.570s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/composition_nodes.dir/all] Interrupt
+[3.570s] gmake: *** [Makefile:146: all] Interrupt

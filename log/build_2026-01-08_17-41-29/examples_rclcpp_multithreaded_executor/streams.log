@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/khushhal/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[8.161s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[8.161s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[8.161s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.161s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[8.161s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[8.161s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[8.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.162s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.162s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[8.162s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[8.162s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[8.162s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[8.162s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.162s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[8.163s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.163s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.171s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.171s] -- Configured cppcheck include dirs: 
+[8.171s] -- Configured cppcheck exclude dirs and/or files: 
+[8.171s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.172s] -- Configured cpplint exclude dirs and/or files: 
+[8.172s] -- Added test 'lint_cmake' to check CMake code style
+[8.172s] -- Added test 'uncrustify' to check C / C++ code style
+[8.172s] -- Configured uncrustify additional arguments: 
+[8.172s] -- Added test 'xmllint' to check XML markup files
+[8.173s] -- Configuring done (3.2s)
+[8.173s] -- Generating done (0.0s)
+[8.173s] -- Build files have been written to: /home/khushhal/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[8.184s] Invoked command in '/home/khushhal/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[8.185s] Invoking command in '/home/khushhal/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j12 -l12

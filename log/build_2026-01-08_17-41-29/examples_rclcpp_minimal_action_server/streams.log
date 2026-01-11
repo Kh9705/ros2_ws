@@ -1,0 +1,34 @@
+[0.043s] Invoking command in '/home/khushhal/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/examples_rclcpp_minimal_action_server
+[0.121s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.367s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.547s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.602s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.667s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.690s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.716s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.746s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.894s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.968s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.972s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.082s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.107s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.134s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.213s] -- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.229s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.376s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.377s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.377s] -- Configured cppcheck include dirs: 
+[1.377s] -- Configured cppcheck exclude dirs and/or files: 
+[1.378s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.378s] -- Configured cpplint exclude dirs and/or files: 
+[1.379s] -- Added test 'lint_cmake' to check CMake code style
+[1.380s] -- Added test 'uncrustify' to check C / C++ code style
+[1.380s] -- Configured uncrustify additional arguments: 
+[1.381s] -- Added test 'xmllint' to check XML markup files
+[1.383s] -- Configuring done (1.3s)
+[1.441s] -- Generating done (0.0s)
+[1.444s] -- Build files have been written to: /home/khushhal/ros2_ws/build/examples_rclcpp_minimal_action_server
+[1.529s] Invoked command in '/home/khushhal/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/khushhal/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/khushhal/ros2_ws/install/examples_rclcpp_minimal_action_server
+[1.530s] Invoking command in '/home/khushhal/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j12 -l12
+[1.661s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o[0m
+[1.661s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o[0m

@@ -1,0 +1,19 @@
+[0.087s] Invoking command in '/home/khushhal/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/khushhal/ros2_ws/build/examples_rclcpp_cbg_executor -- -j12 -l12
+[0.262s] [ 10%] [32mBuilding CXX object CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[0.289s] [ 20%] [32mBuilding CXX object CMakeFiles/pong.dir/src/pong.cpp.o[0m
+[0.289s] [ 30%] [32mBuilding CXX object CMakeFiles/ping.dir/src/ping.cpp.o[0m
+[0.320s] [ 40%] [32mBuilding CXX object CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[0.345s] [ 50%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o[0m
+[0.346s] [ 60%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o[0m
+[0.364s] [ 70%] [32mBuilding CXX object CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o[0m
+[3.582s] gmake[2]: *** [CMakeFiles/ping_pong.dir/build.make:104: CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o] Interrupt
+[3.582s] gmake[2]: *** [CMakeFiles/pong.dir/build.make:76: CMakeFiles/pong.dir/src/pong.cpp.o] Interrupt
+[3.582s] gmake[2]: *** [CMakeFiles/pong.dir/build.make:90: CMakeFiles/pong.dir/src/examples_rclcpp_cbg_executor/pong_node.cpp.o] Interrupt
+[3.582s] gmake[2]: *** [CMakeFiles/ping.dir/build.make:76: CMakeFiles/ping.dir/src/ping.cpp.o] Interrupt
+[3.583s] gmake[2]: *** [CMakeFiles/ping_pong.dir/build.make:90: CMakeFiles/ping_pong.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o] Interrupt
+[3.583s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/pong.dir/all] Interrupt
+[3.583s] gmake[2]: *** [CMakeFiles/ping_pong.dir/build.make:76: CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o] Interrupt
+[3.583s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ping_pong.dir/all] Interrupt
+[3.583s] gmake[2]: *** [CMakeFiles/ping.dir/build.make:90: CMakeFiles/ping.dir/src/examples_rclcpp_cbg_executor/ping_node.cpp.o] Interrupt
+[3.583s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/ping.dir/all] Interrupt
+[3.583s] gmake: *** [Makefile:146: all] Interrupt

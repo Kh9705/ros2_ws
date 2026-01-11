@@ -1,0 +1,4 @@
+[ 50%] Built target fibonacci_action_server
+[ 50%] Built target fibonacci_action_client
+[ 62%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/fibonacci_action_client.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
